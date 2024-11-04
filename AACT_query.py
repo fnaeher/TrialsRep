@@ -63,6 +63,7 @@ q_5 = ("""
        FROM browse_conditions
        """)
 
+
 def q_aact(query, param):
     try:
         conn = psycopg2.connect(**param)
