@@ -1,20 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Oct 11 11:40:57 2024
-
-@author: AnatolFiete.Naeher
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Wed Oct  9 18:11:47 2024
 
 @author: AnatolFiete.Naeher
 """
 
-path = ('J:\\5_Forschung\\5.6_Research overview\\Forschungsprojekte\\'
-        'Representativity in Digital Real-World Trials\\'
-        'Did DHT increase representativity in Clinical Trials\\Data')
+path = ("path\\")
 
 
 import pandas as pd
