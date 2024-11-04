@@ -5,14 +5,13 @@ Created on Wed Oct  9 18:11:47 2024
 @author: AnatolFiete.Naeher
 """
 
-path = ("path\\")
-
-
 import pandas as pd
 import os
 import numpy as np
 import sys
 import re
+
+path = ("path\\")
 
 sys.path.append(path.replace('Data', 'Code'))
 
