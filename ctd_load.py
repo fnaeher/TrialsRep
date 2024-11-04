@@ -7,9 +7,7 @@ Created on Sun Oct 27 21:18:41 2024
 import os
 import pandas as pd
     
-path = ('J:\\5_Forschung\\5.6_Research overview\\Forschungsprojekte\\'
-        'Representativity in Digital Real-World Trials\\'
-        'Did DHT increase representativity in Clinical Trials\\Data')
+path = ("path\\")
 
 urls = {
     'Map_1': 'https://raw.githubusercontent.com/pantapps/cbms2019/refs/heads/'\
