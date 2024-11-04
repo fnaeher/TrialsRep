@@ -236,7 +236,6 @@ def merge(d_CTD):
         how = 'left') ###check merge!!!
     
     
-    
     d_CTD['CTD_2'] = pd.merge(d_CTD['CTD_2'], b_output, 
         on = ['cat_title','cat_exp'], how = 'left')
     
