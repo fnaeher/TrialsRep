@@ -1,19 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct  7 23:37:33 2024
-
-@author: AnatolFiete.Naeher
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Mon Oct  7 10:49:44 2024
 
 @author: AnatolFiete.Naeher
-"""
-# -*- coding: utf-8 -*-
-"""
-Author: Fiete Näher
 """
 
 import sys
