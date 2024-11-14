@@ -1,6 +1,6 @@
 # TrialsRep
 
-TrialsRep maps unstructured sociodemographic information from clinical trials registered on clinicaltrials.gov to predefined sociodemographic categories using batch prompts via openAI's chat.completions API endpoint. Current work in preparation includes mapping of trials utilizing Digital Health technologies to the usage categories defined in Marra, C. et al. (2020) as well as mapping of MeSH terms indcluded in clinicaltrials.gov data to ICD codes using the UMLS metathesaurus and the development of scores gauging mapping quality.  
+TrialsRep maps unstructured sociodemographic information from clinical trials registered on clinicaltrials.gov to predefined sociodemographic categories using batch prompts via openAI's chat.completions API endpoint. Current work in preparation includes mapping of trials utilizing Digital Health Technologies (DHT) to the DHT usage categories as defined in Marra, C. et al. (2020) as well as mapping of MeSH terms indcluded in clinicaltrials.gov data to ICD codes using the UMLS metathesaurus and the development of scores gauging mapping quality.  
 
 Besides sociodemographic information on clinical trials, the output also includes US CENSUS data for sociodemographic represantivity comparisons and preliminary ICD mappings. The following data is merged to clinicaltrials.gov data:  
 
