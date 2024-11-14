@@ -8,7 +8,7 @@ Besides sociodemographic information on clinical trials, the output also include
 - DHTx.csv -> Preliminary data identifying DHT trials as defined by the FDA (e.g. Marra, C. et al. (2020))  
 - MIC.csv -> Preliminary mappings of ICD codes  
 
-# Setting up TrialsRep
+# Getting Started
 (1) Register at https://aact.ctti-clinicaltrials.org/, get & implement an openAI client key.  
 (2) Clone the repository to your local drive and ensure that its folder structure is kept.  
 (3) Create a folder for data storage and copy the *.csv-files included in this repo's data folder.  
