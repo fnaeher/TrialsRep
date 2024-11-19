@@ -6,16 +6,7 @@ Author: Fiete Näher
 import psycopg2
 import pandas as pd
 import os
-from config.settings import path, filename
-
- 
-param = {
-    'dbname': 'aact',
-    'user': "user\\",  
-    'password': "password",   
-    'host': 'aact-db.ctti-clinicaltrials.org',
-    'port': '5432'
-}
+from config.settings import param, path, filename
 
 
 q_1 = ("""
@@ -66,7 +57,6 @@ def q_aact(query, param):
         return df
     except Exception as e:
         print(f"Fehler bei der Abfrage: {e}")
-
 
 d_CTD = {}
 
