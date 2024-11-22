@@ -108,7 +108,6 @@ class ProcessBatch:
             else:
                 self._countdown(ctdwn)
 
-              
     def _countdown(self, minutes):
         for remaining in range(minutes * 60, 0, -1):
             mins, secs = divmod(remaining, 60)
