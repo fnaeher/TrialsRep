@@ -1,108 +1,188 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct  8 21:09:14 2024
+Created on Fri Nov 15 18:01:33 2024
 
 @author: AnatolFiete.Naeher
 """
 
-import pandas as pd
-import json
-from openai import OpenAI
-import time
 import os
-from more_itertools import chunked 
-from config.settings import path, chunks, ctdwn, openAI_Model, batch_filename
-from ctd_processing.lists import d_CTD, age, gender, race, enrollment
-from ctd_processing.data_prep import data_prep2
+import time
+import json
+import logging
+import pandas as pd
+from more_itertools import chunked
+from config.settings import chunks, ctdwn, openAI_Model
 
 
-client = OpenAI()
-
-data = d_CTD['CTD_2'] = data_prep2(d_CTD, age, gender, race, enrollment)
-
-columns = ['cat_title','cat_exp', 'piv_cat']
-
-
-cat_dict = {
-    'gender': ['male', 'female', 'other', 'unknown_g'],
-    'age' : ['<18 years', 'between 18 and 65 years', '>65 years', 'unknown_a'],
-    'race' : ['American Indian or Alaska Native', 'Asian',
-              'Black or African American', 'Hispanic or Latino',
-              'Native Hawaian or Other Pacific Islander', 'White', 'unknown_r']
-}
-
-
-prompt_template = '''
-You are provided with a labeling task: label the phrase {exp} with one and only 
-one of the labels in the list {cat}. Output the result as a list:
-
-['cat_title', 'cat_exp', 'piv_cat'],
-
-where
-
-'cat_title' = {title},
-'cat_exp' = {exp}
-and 'piv_cat' designates the assigned label from list {cat}.
-
-You must use labels in {cat}, only. You must not create any other 
-labels. You must use expressions {title} and {exp}, only. You must not
-create any other expressions.
-
-Output without any additional formatting, code blocks, or extra text, 
-ensuring proper 'cat_title', 'cat_exp', and 'piv_cat' keys.
-'''
-
-
-def countdown(minutes):
-    for remaining in range(minutes * 60, 0, -1):
-        mins, secs = divmod(remaining, 60)
-        timeformat = f"{mins} min and {secs} s"
-        print(f"Checking again in {timeformat}."
-              " ", end = '\r')
-        time.sleep(1)
-
-
-def extract_json(json_df):
-    results = []
-    try:
-        for i in range(len(json_df)):
-            cont = (json_df[i]['response']['body']['choices'][0]['message']  
-                ['content'])
-            p_cont = json.loads(cont)
-            results.append((p_cont.get('cat_title'), p_cont.get('cat_exp'), 
-                            p_cont.get('piv_cat')))
+class DefineTask:
+    def __init__(self, openAI_model, prompt_template):
+        logging.basicConfig(level = logging.INFO, 
+            format = "%(asctime)s - %(levelname)s - %(message)s")
         
-    except KeyError as e:
-        print(f"KeyError: {e} at index {i}")
-        results.append([None, None])
-    except json.JSONDecodeError as e:
-        print(f"JSONDecodeError: {e} at index {i}")
-        results.append([None, None])
-    except Exception as e:
-        print(f"Error processing row {i}: {e}")
-        results.append([None, None])
+        self.model = openAI_model
+        self.prompt_template = prompt_template
+
+    def b_create(self, exp_i, cat, scat):
+        logging.info("Creating batch job...")
+        
+        return [
+            {
+                "custom_id": f"task-{i}",
+                "method": "POST",
+                "url": "/v1/chat/completions",
+                "body": {
+                    "model": self.model,
+                    "temperature": 0,
+                    "max_tokens": 200,
+                    "top_p": 1,
+                    "presence_penalty": 0,
+                    "frequency_penalty": 0,
+                    "response_format": {"type": "json_object"},
+                    "messages": [{"role": "user", "content": 
+                        self.prompt_template.format(title = cat, exp = i, 
+                        cat = scat) + 
+                        " Please respond in JSON format."}]    
+                }
+            }
+            for i in exp_i
+        ]
+
+
+class RetryClient:
+   def __init__(self, client, retries = 3, delay = 2):
+       logging.basicConfig(level = logging.INFO, 
+           format = "%(asctime)s - %(levelname)s - %(message)s")
        
-    return results 
+       self.client = client
+       self.retries = retries
+       self.delay = delay
+
+   def retry(self, func, *args, **kwargs):
+        for attempt in range(self.retries):
+           try:
+               return func(*args, **kwargs)
+           
+           except Exception as e:
+                logging.error(f"Error: {e}. Retrying {attempt + 1}/" 
+                      f"{self.retries} after {self.delay} seconds.")
+                
+                time.sleep(self.delay)
+                
+        raise Exception("Maximum retry attempts reached.")
+        
+   def __getattr__(self, attr):
+        return getattr(self.client, attr)
 
 
-def process_batches(path, batch_filename, cat_dict, exp, openAi_Model,
-    prompt_template, client, chunks, ctdwn, columns):
+class ProcessBatch:
+    def __init__(self, client, task_creator):
+        logging.basicConfig(level = logging.INFO, 
+            format = "%(asctime)s - %(levelname)s - %(message)s")
+        
+        self.client = client
+        self.task_creator = task_creator
+        self.b_completion_count = 0
+
+    def b_submit(self, file_name, tasks):
+        with open(file_name, 'w') as file:
+            for task in tasks:
+               file.write(json.dumps(task) + '\n')
+                
+        with open(file_name, "rb") as file:
+            return self.client.files.create(file = file, purpose = "batch")
+
+    def b_completion(self, b_id):
+        self.b_completion_count += 1
+        
+        logging.info(f"\nWaiting for batch {self.b_completion_count} "
+                     f" to complete...")
+       
+        while True:
+            batch_status = self.client.batches.retrieve(b_id).status
+        
+            if batch_status == 'completed':
+                logging.info("Batch completed. Proceeding...")
+               
+                break
+        
+            else:
+                self._countdown(ctdwn)
+
+              
+    def _countdown(self, minutes):
+        for remaining in range(minutes * 60, 0, -1):
+            mins, secs = divmod(remaining, 60)
+            
+            print(f"Checking again in {mins} min and {secs} s.", end='\r')
+            
+            time.sleep(1)
+
+
+class HandleResult:
+    def __init__(self, client):
+        logging.basicConfig(level = logging.INFO, 
+            format = "%(asctime)s - %(levelname)s - %(message)s")
+        
+        self.client = client
+
+    def process_results(self, batch_id):
+        logging.info("Retrieving results...")
+        
+        output_file_id = self.client.batches.retrieve(batch_id).output_file_id
+        json_dta = self.client.files.content(output_file_id).content
+        json_df = []
+        
+        with open("output.jsonl", 'wb') as file:
+            file.write(json_dta)
+            
+        with open("output.jsonl", 'r') as file:
+            for line in file:
+                json_obj = json.loads(line.strip())
+                json_df.append(json_obj)
+                
+        return self._extract_json(json_df)
+
+    def _extract_json(self, json_df):
+        results = []
+        
+        for i, row in enumerate(json_df):
+            try:
+                content = row['response']['body']['choices'][0]['message']['content']
+                parsed_content = json.loads(content)
+                results.append((parsed_content.get('cat_title'), 
+                                parsed_content.get('cat_exp'), 
+                                parsed_content.get('piv_cat')))
+                
+            except (KeyError, json.JSONDecodeError) as e:
+                print(f"Error at index {i}: {e}")
+                
+                results.append([None, None, None])
+                
+        return results
+
+
+def b_jobs(path, batch_filename, prompt_template, cat_dict, data, client):
     
     os.chdir(path)
     
     b_job_dict = {}
 
-    b_output = []
+    b_output = pd.DataFrame()
     
     if os.path.isfile(os.path.join(path, f"{batch_filename}.csv")):
+        
         b_output = pd.read_csv(os.path.join(path, f"{batch_filename}.csv"))
     
     else:
         
         cat_exp = []
-        
+    
+        task_creator = DefineTask(openAI_Model, prompt_template)
+        retry_client = RetryClient(client)
+        batch_processor = ProcessBatch(retry_client, task_creator)
+        result_handler = HandleResult(retry_client)
+    
         for cat, scat in cat_dict.items():
-           
             exp = list(set(map(str, data[(data['cat_title'] == cat)]
                 ['cat_exp'])))
             
@@ -111,192 +191,46 @@ def process_batches(path, batch_filename, cat_dict, exp, openAi_Model,
             exp = list(chunked(exp, (len(exp) // chunks)))
              
             for chunk_i, exp_i in enumerate(exp, start = 1):
-            
-                tasks = [
-                    {
-                        "custom_id": f"task-{i}",
-                        "method": "POST",
-                        "url": "/v1/chat/completions",
-                        "body": {
-                            "model": openAI_Model,
-                            "temperature": 0,
-                            "max_tokens": 200,
-                            "top_p": 1,
-                            "presence_penalty": 0,
-                            "frequency_penalty": 0,
-                            "response_format": {"type": "json_object"},
-                            "messages": [{"role": "user", "content": 
-                                prompt_template
-                                .format(title = cat, exp = i, cat = scat) + 
-                                " Please respond in JSON format."}]
-                        }
-                    }
-                    for i in exp_i
-                ]
-        
+                tasks = task_creator.b_create(exp_i, cat, scat)
+
                 file_name = f"{cat}_chunk_{chunk_i}.jsonl"
                 
-                with open(file_name, 'w') as file:
-                    for obj in tasks:
-                        file.write(json.dumps(obj) + '\n')
-        
-                b_file = client.files.create(
-                    file = open(file_name, "rb"),
-                    purpose = "batch"
-                )
-        
+                b_file = batch_processor.b_submit(file_name, tasks)
+                
                 b_job = client.batches.create(
                     input_file_id = b_file.id,
                     endpoint = "/v1/chat/completions",
                     completion_window = "24h"
                 )
-        
-                b_job_dict[f"{cat}_chunk_{chunk_i}"] = b_job.id
-        
-                print(f"\nWaiting for batch job for chunk {chunk_i} out of"
-                      F" {len(exp)} of category {cat} to complete.")
                 
-                completed = False
-                while not completed:
-                    completed = True
-                    
-                    for b_id in [b_job_dict[f"{cat}_chunk_{chunk_i}"]]:
-                        if client.batches.retrieve(b_id).status != 'completed':
-                            completed = False
-                            countdown(ctdwn)
-                            break
-        
-                print(f"\nBatch job for chunk {chunk_i} out of {len(exp)} of"
-                      f" category {cat} completed. Proceeding with next chunk...")
-        
-        print("\nAll batch jobs completed.")
-        
-        
+                b_job_dict[f"{cat}_chunk_{chunk_i}"] = b_job.id
+                
+                batch_processor.b_completion(b_job.id)
+                
         for cat, b_id in b_job_dict.items():
-           output_file_id = client.batches.retrieve(b_id).output_file_id
-           json_df = client.files.content(output_file_id).content
-           
-           extracted_df_name = f"{cat}.jsonl"
-           with open(extracted_df_name, 'wb') as file:
-               file.write(json_df)
-        
-           json_df = []
-           with open(extracted_df_name, 'r') as file:
-               for line in file:
-                   json_object = json.loads(line.strip())
-                   json_df.append(json_object)
+                result = result_handler.process_results(b_id)
 
-           b_output.append(extract_json(json_df))
-        
-        b_output = pd.DataFrame([item for sublist in b_output for item 
-           in sublist], columns = columns)
-        
+                if isinstance(result, list):
+                    result = pd.DataFrame(result, 
+                        columns = ['cat_title', 'cat_exp', 'piv_cat'])
+
+                b_output = pd.concat([b_output, result], ignore_index = True)
+
+                b_output['cat_exp'] = [
+                    tuple(item) if isinstance(item, list) else item for item 
+                        in b_output['cat_exp']
+                    ]
+                
+                b_output = b_output.drop_duplicates()
+
         b_output['cat_exp'] = [
             tuple(item) if isinstance(item, list) else item for item 
                 in b_output['cat_exp']
             ]
         
-        if set(cat_exp) - set(b_output['cat_exp']):
-            tasks = []
-            
-            f_data = data[data['cat_exp'].isin(set(cat_exp) - 
-                set(b_output['cat_exp']))]
-            
-            for cat, scat in cat_dict.items():
-                exp_list = list(set(f_data[f_data['cat_title'] == 
-                    cat]['cat_exp']))
-                
-                for i in exp_list:
-                    task = {
-                        "custom_id": f"task-{cat}{i}",
-                        "method": "POST",
-                        "url": "/v1/chat/completions",
-                        "body": {
-                            "model": openAI_Model,
-                            "temperature": 0,
-                            "max_tokens": 200,
-                            "top_p": 1,
-                            "presence_penalty": 0,
-                            "frequency_penalty": 0,
-                            "response_format": {"type": "json_object"},
-                            "messages": [
-                                {
-                                    "role": "user",
-                                    "content": (
-                                        prompt_template.format(title=cat, 
-                                            exp=i, cat=scat) +
-                                        " Please respond in JSON format."
-                                    )
-                                }
-                            ]
-                        }
-                    }
-                    
-                    tasks.append(task)
-            
-            file_name = "correct.jsonl"
-            with open(file_name, 'w') as file:
-                for obj in tasks:
-                    file.write(json.dumps(obj) + '\n')
-            
-            with open(file_name, "rb") as file:
-                b_file = client.files.create(file=file, purpose="batch")
-            
-            b_job = client.batches.create(
-                input_file_id=b_file.id,
-                endpoint="/v1/chat/completions",
-                completion_window="24h"
-            )
-            
-            b_job_dict["correct"] = b_job.id
-            
-            print("\nWaiting for batch job corrections to complete.")
-            
-            completed = False
-            while not completed:
-                completed = True
-                for b_id in [b_job_dict["correct"]]:
-                    if client.batches.retrieve(b_id).status != 'completed':
-                        completed = False
-                        countdown(ctdwn)
-                        break
-            
-            print("Batch job corrections completed.")
-          
-            output_file_id = client.batches.retrieve(b_job_dict['correct']) \
-                .output_file_id
-            json_df = client.files.content(output_file_id).content
-            
-            extracted_df_name = "correct.jsonl"
-            with open(extracted_df_name, 'wb') as file:
-                file.write(json_df)
-         
-            json_df = []
-            with open(extracted_df_name, 'r') as file:
-                for line in file:
-                    json_object = json.loads(line.strip())
-                    json_df.append(json_object)
-                    
-            cb_output = pd.DataFrame(extract_json(json_df))
-            cb_output.columns = b_output.columns
-            b_output = pd.concat([b_output, cb_output], ignore_index=True)
-            
-            b_output['cat_exp'] = [
-                tuple(item) if isinstance(item, list) else item for item 
-                    in b_output['cat_exp']
-                ]
-            
-            b_output = b_output.drop_duplicates()
-        
         b_output.to_csv(os.path.join(path, f"{batch_filename}.csv"), 
-            index = False)
-        print(f"Batch jobs saved as {batch_filename}.csv"
-              f" saved in {path}")
+                index = False)
         
-    d_CTD['b_output'] = b_output
+    print(f"Batch job results saved as {batch_filename}.csv in {path}")
     
-    return(d_CTD)
-
-
-b_output = process_batches(path, batch_filename, cat_dict, data, openAI_Model,
-    prompt_template, client, chunks, ctdwn, columns)
+    return b_output
