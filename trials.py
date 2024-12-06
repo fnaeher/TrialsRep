@@ -11,7 +11,7 @@ if __name__ == "__main__":
         cat_dict, filename
     from ctd_processing.lists import d_CTD, age, gender, race, enrollment
     from ctd_processing.data_prep import data_prep2    
-    from ctd_processing.batch_jobs_testing import b_jobs
+    from ctd_processing.batch_jobs import b_jobs
     from ctd_processing.data_prep import merge
     
     d_CTD['CTD_2'] = data_prep2(d_CTD, age, gender, race, enrollment)
