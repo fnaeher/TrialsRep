@@ -31,7 +31,6 @@ f_exist = True
 
 for file in f_list['list_1']:
     f_path = os.path.join(path, file)
-
     if not os.path.isfile(f_path):
         f_exist = False
         

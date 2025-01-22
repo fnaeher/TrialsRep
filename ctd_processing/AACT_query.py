@@ -51,6 +51,7 @@ q_5 = ("""
        """)
 
 def q_aact(query, param):
+    print(param)
     try:
         conn = psycopg2.connect(**param)
         df = pd.read_sql(query, conn)
@@ -62,10 +63,11 @@ d_CTD = {}
 
 for i, (query, file) in enumerate([(q_1, f"{filename}_1.csv"), (q_2, 
     f"{filename}_2.csv"), (q_3, f"{filename}_3.csv"), (q_4, f"{filename}_4.csv"), 
-    (q_5, f"{filename}_1.csv")], start = 1):
+    (q_5, f"{filename}_5.csv")], start = 1):
     
     CTD = q_aact(query, param)
     
     CTD.to_csv(os.path.join(path, file), index = False)
+    print(path, file)
     
     d_CTD[f'CTD_{i}'] = CTD
