@@ -2,32 +2,37 @@
 """
 Created on Tue Nov 12 12:56:23 2024
 
-@author: AnatolFiete.Naeher
+@author: AnatolFiete.Naeher and Akhyar.Ahmed
 """
 
-path = ('J:\\5_Forschung\\5.6_Research overview\\Forschungsprojekte\\'
-        'Representativity in Digital Real-World Trials\\'
-        'Did DHT increase representativity in Clinical Trials\\Data')
+path = ('/Users/akhyar.ahmed/Downloads/Data')
 
 param = {
     'dbname': 'aact',
-    'user': "user\\",  
-    'password': "password",   
+    'user': "user/",  
+    'password': "pass",   
     'host': 'aact-db.ctti-clinicaltrials.org',
     'port': '5432'
 }
 
 prompt_template = '''
-You are provided with a labeling task: label the phrase {exp} with one and only 
-one of the labels in the list {cat}. Output the result as a list:
+You are provided with a labeling task:
+- The phrase is "{exp}".
+- The only valid labels are one of: "{cat}".
+Output strictly valid JSON with no additional commentary, in the format:
 
-['cat_title', 'cat_exp', 'piv_cat'],
+{{
+  "cat_title": "{title}",
+  "cat_exp": "{exp}",
+  "piv_cat": "<One label from {cat}>"
+}}
 
-where
+Where:
+- "cat_title" = {title},
+- "cat_exp" = {exp},
+- "piv_cat" is exactly one from the list {cat}.
 
-'cat_title' = {title},
-'cat_exp' = {exp}
-and 'piv_cat' designates the assigned label from list {cat}.
+Return only valid JSON in String. No disclaimers, no extra text.
 '''
 
 cat_dict = {
