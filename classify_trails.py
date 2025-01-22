@@ -1,6 +1,8 @@
 '''
 Created on THR Nov 21 11:43:13 2024
 
+@author: Akhyar Ahmed
+
 Pre-requisite: 
 1. pip install pandas spacy
 2. python -m spacy download en_core_web_sm
