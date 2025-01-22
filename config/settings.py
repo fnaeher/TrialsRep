@@ -9,8 +9,8 @@ path = ('/Users/akhyar.ahmed/Downloads/Data')
 
 param = {
     'dbname': 'aact',
-    'user': "afn",  
-    'password': "Zitronenbaum3!",   
+    'user': "user/",  
+    'password': "pass",   
     'host': 'aact-db.ctti-clinicaltrials.org',
     'port': '5432'
 }
