@@ -186,7 +186,7 @@ def b_jobs(path, batch_filename, prompt_template, cat_dict, data, client):
             # Create chunked groups
             chunk_size = max(1, len(exp)//chunks)
             exp_chunks = list(chunked(exp, chunk_size))
-
+            
             for chunk_i, exp_i in enumerate(exp_chunks, start=1):
                 # Create tasks for this chunk
                 tasks = task_creator.b_create(exp_i, cat, scat)
@@ -195,6 +195,7 @@ def b_jobs(path, batch_filename, prompt_template, cat_dict, data, client):
 
                 # Submit
                 b_file = batch_processor.b_submit(file_name, tasks)
+
                 # Create a "batch"
                 b_job = client.batches.create(
                     input_file_id=b_file.id,
