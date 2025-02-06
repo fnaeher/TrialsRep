@@ -1,0 +1,302 @@
+cat_exp,cat_title,cat_label,gpt_4o_mini_piv_cat,gpt_4o_piv_cat,llama_3_8b_piv_cat,llama_3_3_70B_piv_cat
+Transgender (Female to Male),gender,male,male,unknown_g,male,male
+Gender : Female,gender,female,female,female,female,female
+"Female, Tool/No Tool",gender,female,female,unknown_g,female,female
+Male (≥51 Years),gender,male,male,male,male,male
+Female (≥61 years of age),gender,female,female,female,female,female
+Phase I - Candesartan+HCTZ,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Male (Part B),gender,male,male,male,male,male
+Bigender,gender,other,other,other,other,other
+Gay,gender,male,unknown_g,unknown_g,other,unknown_g
+Gender- Male,gender,male,male,male,male,male
+Male (Titration),gender,male,male,male,male,male
+Nonbinary/questioning,gender,other,unknown_g,other,other,other
+Transgender Man,gender,male,male,other,other,male
+Male (Double-blind Period),gender,male,male,male,male,male
+Female/Female,gender,female,unknown_g,female,female,female
+"Transgender, Other, Prefer not to answer",gender,other,unknown_g,unknown_g,other,unknown_g
+cisgender Woman,gender,female,female,female,female,female
+Multiple gender identities,gender,other,unknown_g,unknown_g,other,other
+F-Transgender,gender,female,other,unknown_g,other,other
+Sex/Gender Baseline,gender,unknown_g,unknown_g,unknown_g,male,unknown_g
+Transgender woman or gender-diverse,gender,female,other,unknown_g,other,other
+Female Female,gender,female,female,female,female,female
+"Male, Maintenance Phase",gender,male,male,male,male,male
+Transgender Man/Trans Man,gender,male,male,male,male,male
+"Cohort 4, Male",gender,male,male,male,male,male
+Transfemale,gender,female,unknown_g,unknown_g,female,female
+Part A Cohort 1 (n=5): Female,gender,female,female,female,female,female
+Male patients,gender,male,male,male,male,male
+"Nonbinary, genderfluid, or genderqueer",gender,other,unknown_g,other,other,other
+male patients,gender,male,male,male,male,male
+Multi-gender,gender,other,unknown_g,unknown_g,other,unknown_g
+Decline to Answer,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Unknown,gender,unknown_g,unknown_g,unknown_g,missing,unknown_g
+missing,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Female : No retinopathy,gender,female,female,female,female,female
+Sex : Male,gender,male,male,male,male,male
+Male/man,gender,male,male,male,missing,male
+Male (18 to 64 years),gender,male,male,male,male,male
+"Female, Part 1",gender,female,female,unknown_g,female,female
+male gender,gender,male,male,male,male,male
+Sex female,gender,female,female,female,missing,female
+Female (EAP),gender,female,female,female,female,female
+Transgender female-to-male,gender,male,unknown_g,male,other,male
+Prefers not to identify,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Intention to Treat (ITT): Female,gender,female,female,female,female,female
+"Nonbinary (e.g., genderqueer, agender, gender fluid)",gender,other,other,other,other,other
+intersex,gender,other,unknown_g,unknown_g,missing,other
+Other (Unspecified),gender,other,unknown_g,unknown_g,other,other
+"Female, Ages 6-11",gender,female,female,female,female,female
+"Other, Unspecified",gender,other,unknown_g,unknown_g,unknown_g,other
+Sex of Particpants : Male,gender,male,male,male,male,male
+Part B (n = 34): Male,gender,male,male,male,male,male
+Male (Randomization Phase),gender,male,male,male,male,male
+"Female, Part 2",gender,female,female,unknown_g,female,female
+Trans person,gender,other,other,unknown_g,other,other
+Part A: Male (n = 8),gender,male,male,male,male,male
+Transgender boy,gender,male,male,male,other,male
+Male (at birth),gender,male,male,male,male,male
+Demographic information not collected,gender,unknown_g,unknown_g,unknown_g,missing,unknown_g
+Gender Diverse,gender,other,other,unknown_g,other,other
+Male (Double Blind Phase),gender,male,male,male,male,male
+"Male, Ages 2-5",gender,male,male,male,male,male
+They/Them/Their,gender,other,unknown_g,unknown_g,missing,other
+2008 Female,gender,female,female,unknown_g,female,female
+Students: Female,gender,female,female,female,female,female
+"Female, Overall Study",gender,female,female,female,female,female
+Male (EAP),gender,male,male,male,male,male
+"none of these describe me (includes those identifying as non-binary, transgender, and bi-gender)",gender,other,unknown_g,other,other,other
+Man/boy,gender,male,male,unknown_g,male,male
+Transgender/Transwoman,gender,female,other,unknown_g,other,other
+male participants,gender,male,male,male,male,male
+Undifferentiated or Unknown,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Women,gender,female,female,female,female,female
+Refuse to answer,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Males entered at Baseline,gender,male,male,male,male,male
+Part A: Female (n = 8),gender,female,female,female,female,female
+Male (Cohort I),gender,male,male,male,male,male
+Males,gender,male,male,male,male,male
+not reported - child,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Teachers: Male,gender,male,male,male,male,male
+Female (19 to 55 years),gender,female,female,female,female,female
+Teachers,gender,unknown_g,unknown_g,unknown_g,missing,unknown_g
+Male entire study population,gender,male,male,male,male,male
+gender not known,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Male_Extension Study,gender,male,male,male,male,male
+Unknown or Decline to Answer,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Phase 2 ELND005 500 BID Female,gender,female,female,female,female,female
+Female (Open Label Phase),gender,female,female,female,female,female
+Non-binary or prefered not to disclose,gender,unknown_g,unknown_g,unknown_g,other,other
+Transman,gender,male,male,male,other,male
+Sex/Gender Not Collected,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Self-described,gender,unknown_g,unknown_g,unknown_g,missing,unknown_g
+Phase II - Aliskiren+HCTZ,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Different Identity,gender,unknown_g,unknown_g,unknown_g,missing,unknown_g
+Previously Untreated : Female,gender,female,female,female,female,female
+Unspecified Gender,gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Parent Male,gender,male,male,male,male,male
+Undifferentiated (at birth),gender,unknown_g,unknown_g,unknown_g,unknown_g,unknown_g
+Non-Binary,gender,other,other,other,other,other
+Transgender Spectrum,gender,other,other,unknown_g,missing,other
+Between 50 and 60 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Over 55 years of age,age,between 18 and 65 years,>65 years,between 18 and 65 years,>65 years,between 18 and 65 years
+36-40 years old,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+1-5,age,<18 years,<18 years,<18 years,unknown_a,<18 years
+≥ 20 to < 30 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+16-25,age,unknown_a,between 18 and 65 years,unknown_a,between 18 and 65 years,between 18 and 65 years
+62-68,age,unknown_a,>65 years,unknown_a,between 18 and 65 years,between 18 and 65 years
+Age <89 years,age,>65 years,unknown_a,unknown_a,between 18 and 65 years,unknown_a
+between 30 and 40 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Gestational age <33 weeks,age,unknown_a,unknown_a,unknown_a,unknown_a,unknown_a
+Phase I - Candesartan+HCTZ,age,unknown_a,unknown_a,unknown_a,between 18 and 65 years,unknown_a
+1 to 9 years,age,<18 years,<18 years,<18 years,between 18 and 65 years,<18 years
+45-54 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Agesfrom 30 to 41,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+18-64 years old,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+">=18, <65",age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+18-54 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+≥7 to <15 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+>= 60,age,between 18 and 65 years,>65 years,unknown_a,>65 years,>65 years
+DBT Phase,age,unknown_a,unknown_a,unknown_a,missing,unknown_a
+>=65 and <85 years,age,>65 years,>65 years,unknown_a,>65 years,>65 years
+Between 41 and 64 Years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Age (Years),age,unknown_a,unknown_a,unknown_a,missing,unknown_a
+65 - <85 years,age,>65 years,unknown_a,unknown_a,>65 years,unknown_a
+Postnatal age at study,age,unknown_a,unknown_a,unknown_a,missing,unknown_a
+1 to <2 years old,age,<18 years,<18 years,<18 years,<18 years,<18 years
+< 21 years,age,between 18 and 65 years,<18 years,unknown_a,<18 years,unknown_a
+≥6 to <13 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+Gestational age at birth 29-32 weeks,age,unknown_a,unknown_a,<18 years,unknown_a,unknown_a
+Adolescents,age,unknown_a,<18 years,<18 years,<18 years,<18 years
+Between 18 to 44 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Between 18 and 64,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+,age,unknown_a,unknown_a,unknown_a,unknown_a,unknown_a
+≥12 to <16 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+child age,age,unknown_a,<18 years,<18 years,missing,<18 years
+age not available,age,unknown_a,unknown_a,unknown_a,unknown_a,unknown_a
+16 to <= 17 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+14-15 years,age,<18 years,<18 years,<18 years,between 18 and 65 years,<18 years
+2 to 6 months,age,<18 years,<18 years,<18 years,unknown_a,<18 years
+Titration Phase,age,unknown_a,unknown_a,unknown_a,unknown_a,unknown_a
+40 - 54 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+>=18-<50 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+9-17 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+Age 22-70,age,unknown_a,unknown_a,unknown_a,between 18 and 65 years,unknown_a
+participant age,age,unknown_a,unknown_a,unknown_a,missing,unknown_a
+Phase I,age,unknown_a,unknown_a,unknown_a,missing,unknown_a
+18-35,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Between 18 and < 66 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,unknown_a
+>= 65 years old,age,>65 years,>65 years,>65 years,>65 years,>65 years
+Age- Caregiver,age,unknown_a,unknown_a,unknown_a,between 18 and 65 years,unknown_a
+> 3 years - 6 years,age,<18 years,unknown_a,<18 years,between 18 and 65 years,<18 years
+Greater than or equal to 91,age,>65 years,>65 years,>65 years,>65 years,>65 years
+30-44 Years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+>= 65 - < 75 Years,age,>65 years,>65 years,>65 years,>65 years,>65 years
+> 18 years to <= 64 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+>= 3 years and < 5 years,age,<18 years,<18 years,<18 years,between 18 and 65 years,<18 years
+6 weeks to 4 months old,age,<18 years,<18 years,<18 years,unknown_a,<18 years
+18 years to 45 years (adults),age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+≤ 39 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,<18 years,between 18 and 65 years
+>=12 to <18 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+Birth to 1 month,age,<18 years,<18 years,<18 years,<18 years,<18 years
+"Age, 65-79 years",age,>65 years,>65 years,>65 years,>65 years,>65 years
+<60 years old,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,<between 18 and 65 years>,between 18 and 65 years
+56 to 85 years old,age,unknown_a,>65 years,unknown_a,between 18 and 65 years,unknown_a
+6-21 years,age,unknown_a,<18 years,unknown_a,<18 years,<18 years
+>89,age,>65 years,>65 years,>65 years,>65 years,>65 years
+18-50 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Children (2--11 years),age,<18 years,<18 years,<18 years,<18 years,<18 years
+Age at onset of acute bipolar mania,age,unknown_a,unknown_a,unknown_a,>65 years,unknown_a
+84,age,>65 years,>65 years,>65 years,>65 years,>65 years
+Aged 65 or older,age,>65 years,>65 years,>65 years,>65 years,>65 years
+18-21 yrs,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+65-74 years,age,>65 years,>65 years,unknown_a,between 18 and 65 years,>65 years
+12 <17 years,age,<18 years,<18 years,<18 years,<18 years,unknown_a
+55 to < 65 years,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Microscopic colitis,age,unknown_a,unknown_a,unknown_a,unknown_a,unknown_a
+>= 2 to < 12 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+4-17 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+65-80 years old,age,>65 years,>65 years,unknown_a,>65 years,>65 years
+"Part 2, Double blind",age,unknown_a,unknown_a,unknown_a,unknown_a,unknown_a
+<=3 to <6 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+>= 65,age,>65 years,>65 years,>65 years,>65 years,>65 years
+75 to < 85,age,>65 years,>65 years,>65 years,between 18 and 65 years,>65 years
+Weeks of age at Dose 1 of HRV,age,unknown_a,unknown_a,unknown_a,between 18 and 65 years,unknown_a
+greater than 65 years,age,>65 years,>65 years,>65 years,>65 years,>65 years
+46-64,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+<=7 years,age,<18 years,<18 years,<18 years,<18 years,<18 years
+> or = 18 years,age,<18 years,between 18 and 65 years,unknown_a,between 18 and 65 years,between 18 and 65 years
+5-11,age,<18 years,<18 years,<18 years,<18 years,<18 years
+24-71 Months,age,<18 years,unknown_a,<18 years,between 18 and 65 years,unknown_a
+60 -79,age,unknown_a,>65 years,unknown_a,between 18 and 65 years,unknown_a
+"Cycle 2, Arm B",age,unknown_a,unknown_a,unknown_a,unknown_a,unknown_a
+18-20,age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Children (2 to <12 years),age,<18 years,<18 years,<18 years,<18 years,<18 years
+Study A05 Non-autopsy Cases,age,unknown_a,unknown_a,unknown_a,unknown_a,unknown_a
+Infants and toddlers (31 days-<24 months),age,<18 years,<18 years,<18 years,<18 years,<18 years
+Adult (> 21 years),age,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years,between 18 and 65 years
+Child: Age 13-24 months,age,<18 years,<18 years,<18 years,between 18 and 65 years,<18 years
+≥ 40 to ≤ 70 years,age,unknown_a,unknown_a,unknown_a,between 18 and 65 years,between 18 and 65 years
+Seed Study,age,unknown_a,unknown_a,unknown_a,between 18 and 65 years,unknown_a
+Ethnicity: Unknown or Not Reported,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Phototype IV,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Subject chose not to disclose,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Bi/Multi-Racial,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Causasian,race,unknown_r,unknown_r,White,White,White
+"White, non-hispanic",race,White,White,White,White,White
+Both White and Black/African American,race,unknown_r,unknown_r,unknown_r,Black or African American,unknown_r
+Black and Latino,race,unknown_r,unknown_r,unknown_r,Hispanic or Latino,unknown_r
+"Black, or African heritage",race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+White(Wh)-Wh/Caucasian(Ca)/European(Eu)Heritage(H),race,White,White,White,White,White
+Native North American,race,American Indian or Alaska Native,unknown_r,American Indian or Alaska Native,American Indian or Alaska Native,American Indian or Alaska Native
+Not Reportable per Local Laws/Regulations,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Han - the main ethnic origin in China,race,Asian,Asian,Asian,Asian,Asian
+White and Hispanic / Latino,race,unknown_r,unknown_r,unknown_r,Hispanic or Latino,unknown_r
+Black (US),race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+AMERICAN INDIAN OR ALASKAN NATIVE,race,American Indian or Alaska Native,American Indian or Alaska Native,American Indian or Alaska Native,American Indian or Alaska Native,American Indian or Alaska Native
+Hispanic / Latina,race,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino
+White + Unknown,race,unknown_r,unknown_r,unknown_r,White,unknown_r
+Scandinavian/Central European,race,White,unknown_r,White,White,White
+Race Unknown/Not Reported,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Ethnicity : White,race,White,White,White,White,White
+Captured as Other in Database,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Turkish Kurdish,race,White,unknown_r,unknown_r,unknown_r,unknown_r
+East Asian or South East Asian,race,Asian,Asian,Asian,Asian,Asian
+"Not Otherwise Specified, Spanish, Hispanic, Latino",race,Hispanic or Latino,Hispanic or Latino,unknown_r,Hispanic or Latino,Hispanic or Latino
+Hispanic / Other,race,Hispanic or Latino,unknown_r,unknown_r,Hispanic or Latino,unknown_r
+White - White / Caucasian / European Heritage,race,White,White,White,White,White
+South American Indian (Chile),race,American Indian or Alaska Native,unknown_r,American Indian or Alaska Native,American Indian or Alaska Native,American Indian or Alaska Native
+African-American/Black: non-Hispanic,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+Native Hawaiian or other pacific islander,race,Native Hawaian or Other Pacific Islander,Native Hawaian or Other Pacific Islander,Native Hawaian or Other Pacific Islander,Native Hawaian or Other Pacific Islander,Native Hawaian or Other Pacific Islander
+African American/Black of African origin,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+Race - Black or African American,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+Other/Multi-race,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+White - Arabic/ north African heritage,race,White,unknown_r,unknown_r,White,unknown_r
+Am Indian/Alaska,race,American Indian or Alaska Native,unknown_r,American Indian or Alaska Native,American Indian or Alaska Native,American Indian or Alaska Native
+Oriental/Asian,race,Asian,unknown_r,unknown_r,Asian,Asian
+Asian : Female,race,Asian,Asian,Asian,Asian,Asian
+"Phase 2, Black",race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+American Indian/Alaskan Native and White Heritage,race,unknown_r,unknown_r,unknown_r,American Indian or Alaska Native,unknown_r
+"Multiple races, non-Hispanic",race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+White-White/Causasian/European Heritage,race,White,unknown_r,White,White,White
+Asian: Japanese/East-Southeast Asian Heritage,race,Asian,Asian,Asian,Asian,Asian
+"American Indian, Asian, Hispanic, White/Cau",race,unknown_r,unknown_r,unknown_r,Hispanic or Latino,unknown_r
+"Oceania (e.g., Australian, New Zealander, Pacific Islander)",race,unknown_r,Native Hawaian or Other Pacific Islander,unknown_r,Native Hawaian or Other Pacific Islander,Native Hawaian or Other Pacific Islander
+Mixed Race/Multiple Ethnic Background,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Not Reported / Missing,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Black/African Origin,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+Other North East Asian,race,Asian,unknown_r,Asian,Asian,Asian
+White/Non-Hispanic,race,White,White,White,White,unknown_r
+No Response,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Adult Black or African American,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+Korean Ethnicity,race,Asian,Asian,Asian,Asian,Asian
+\Native Hawaiian or Pacific Islander,race,Native Hawaian or Other Pacific Islander,Native Hawaian or Other Pacific Islander,Native Hawaian or Other Pacific Islander,"Native Hawaian or Other Pacific Islander""
+",Native Hawaian or Other Pacific Islander
+"white, hispanic",race,unknown_r,unknown_r,unknown_r,Hispanic or Latino,unknown_r
+"White - Caucasian/ European heritage, n (%)",race,White,White,White,White,White
+Race: : White,race,White,White,White,White,White
+Patient chose not to answer,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+No Race Reported,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Northeast,race,unknown_r,unknown_r,unknown_r,White,unknown_r
+Asian: Central Asian Heritage,race,Asian,Asian,Asian,Asian,Asian
+Mixed white and black carribean,race,unknown_r,unknown_r,unknown_r,Black or African American,unknown_r
+NOT HAN,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Taiwan,race,Asian,Asian,Asian,Asian,Asian
+African (Rwandan),race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+Caribbean Black,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+Asian : Pakistani,race,Asian,Asian,Asian,Asian,Asian
+Ethnicity : Non-Hispanic,race,unknown_r,unknown_r,unknown_r,Hispanic or Latino,unknown_r
+Black : Hispanic,race,unknown_r,unknown_r,unknown_r,Black or African American,unknown_r
+Subsaharan Africa,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+Caregivers: Hispanic,race,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino
+"More than one race, Hispanic or Latino",race,unknown_r,unknown_r,unknown_r,Hispanic or Latino,unknown_r
+Black Ethnicity Not Reported,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Asian - Indian,race,Asian,unknown_r,Asian,Asian,Asian
+Other Race/Ethnicity,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+"African American, Hispanic and Other",race,unknown_r,unknown_r,unknown_r,Black or African American,unknown_r
+Hispanic,race,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino,Hispanic or Latino
+Unknown/Did Not Report,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Asian-East,race,Asian,unknown_r,Asian,Asian,Asian
+Asian or Asian-American,race,Asian,Asian,Asian,Asian,Asian
+Asian-Japanese H/East AH/South East AH,race,Asian,unknown_r,unknown_r,Asian,Asian
+Others: Caregiver,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Unknown/Not Provided,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+"Other, Non-Hispanic",race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+Black or African American and Hispanic or Latino,race,Black or African American,unknown_r,unknown_r,Black or African American,unknown_r
+"Prefer not to answer, non-Hispanic",race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+African/West Indian,race,Black or African American,unknown_r,Black or African American,Black or African American,Black or African American
+White and Black Caribbean,race,unknown_r,unknown_r,unknown_r,Black or African American,unknown_r
+Hausa,race,Black or African American,unknown_r,Black or African American,unknown_r,unknown_r
+Khmer,race,Asian,Asian,Asian,Asian,Asian
+Multiracial/Multiethnic/Other,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+African/Black,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
+NOT HISPANIC/LATINO,race,unknown_r,unknown_r,unknown_r,White,unknown_r
+Missing/Not collected at this site,race,unknown_r,unknown_r,unknown_r,unknown_r,unknown_r
+NZ European,race,White,unknown_r,White,White,White
+Not Hispanic - White,race,White,White,White,missing,White
+Latin Race,race,Hispanic or Latino,Hispanic or Latino,unknown_r,Hispanic or Latino,Hispanic or Latino
+White (all ethnicities),race,White,unknown_r,unknown_r,White,White
+"White, not of Hispanic-American origin",race,White,White,White,White,White
+Hispanic-American,race,Hispanic or Latino,Hispanic or Latino,unknown_r,Hispanic or Latino,unknown_r
+% black,race,Black or African American,Black or African American,Black or African American,Black or African American,Black or African American
