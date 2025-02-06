@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # Data prep
     d_CTD['CTD_2'] = data_prep2(d_CTD, age, gender, race, enrollment)
-
+    
     # GPT-based processing
     print("Starting GPT-based batch processing...")
     d_CTD['b_output'] = b_jobs_gpt(
