@@ -12,8 +12,8 @@ import os
 
 param = {
     'dbname': 'aact',
-    'user': "afn",  
-    'password': "Zitronenbaum3!",   
+    'user': "xxx",  
+    'password': "xxx",   
     'host': 'aact-db.ctti-clinicaltrials.org',
     'port': '5432'
 }
