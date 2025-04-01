@@ -34,7 +34,7 @@ q_2 = ("""
          
          
 q_3 = ("""
-          SELECT nct_id, intervention_type, name
+          SELECT id, nct_id, intervention_type, name, description
           FROM interventions
           """)  
        
