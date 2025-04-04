@@ -92,32 +92,37 @@ def merge(d_CTD):
     d_CTD['CTD_1']['completion_year'] = pd.to_datetime(d_CTD['CTD_1']
         ['completion_date'], errors ='coerce').dt.strftime('%Y')
 
-
+    d_CTD['CTD_1']['nct_id'] = d_CTD['CTD_1']['nct_id'].astype(str)
     d_CTD['CTD_1_agg'] = d_CTD['CTD_1'].groupby('nct_id').agg(
-        Value1_sum = ('enrollment', 'sum'),    
-        Value1_list = ('enrollment', list),        
-        Value2_list = ('name', list))
-
+        Value1_sum = ('enrollment', 'sum'),
+        Value1_list = ('enrollment', list),
+        Value2_list = ('name', list)
+    ).reset_index()
+    d_CTD['CTD_1_agg']['nct_id'] = d_CTD['CTD_1_agg']['nct_id'].astype(str)
 
     d_CTD['CTD_1'] = d_CTD['CTD_1'].drop(columns = ['enrollment', 'name'], 
         axis = 1)
     d_CTD['CTD_1'] = d_CTD['CTD_1'].drop_duplicates()
-    d_CTD['CTD_1'] = pd.merge(d_CTD['CTD_1_agg'], d_CTD['CTD_1'], on = 'nct_id', 
-        how = 'left')
-
-
+    d_CTD['CTD_1'] = pd.merge(d_CTD['CTD_1_agg'], d_CTD['CTD_1'], on='nct_id', how='left')
+    
+    # Rename the merge key to uppercase for consistency later.
     d_CTD['CTD_1'].columns = ['NCT_id', 'Enrollment', 'list_Enrollment',
         'study_Country','study_Type', 'FDAreg_Drug', 'FDAreg_Device', 
         'unapp_Device', 'Status', 'st_Date', 'comp_Date', 'Phase', 'no_Arms', 
-        'Sampling', 'e_Gender', 'e_min_Age', 'e_max_Age','st_Year', 'comp_Year'
-        ]
+        'Sampling', 'e_Gender', 'e_min_Age', 'e_max_Age','st_Year', 'comp_Year']
+
+    #     'nct_id', 'Value1_sum', 'Value1_list', 'Value2_list', 'study_type',
+    #    'is_fda_regulated_drug', 'is_fda_regulated_device',
+    #    'is_unapproved_device', 'overall_status', 'start_date',
+    #    'completion_date', 'phase', 'number_of_arms', 'sampling_method',
+    #    'gender', 'minimum_age', 'maximum_age', 'were_results_reported',
+    #    'start_year', 'completion_year'
      
     
     d_CTD['CTD_1']['study_Country'] = d_CTD['CTD_1']['study_Country'].apply(
         lambda x: ', '.join(map(str, x)) if isinstance(x, list) else x if 
         pd.notna(x) else ''
         )
-    
     
     d_CTD['DD']['Year'] = d_CTD['DD']['Year'].astype(str)
     d_CTD['DD']['study_Country'] = 'United States'
@@ -149,8 +154,11 @@ def merge(d_CTD):
         .apply(len)     
 
 
+
     d_CTD['DHTx'].columns = ['NCT_id']
     d_CTD['DHTx'].loc[:,'DHT'] = 1
+    if 'NCT_id' in d_CTD['DHTx'].columns:
+        d_CTD['DHTx']['NCT_id'] = d_CTD['DHTx']['NCT_id'].astype(str)
     d_CTD['CTD_1'] = pd.merge(d_CTD['CTD_1'], d_CTD['DHTx'], on = 'NCT_id', 
         how = 'left')
     d_CTD['CTD_1']['DHT'] = d_CTD['CTD_1']['DHT'].fillna(0)
@@ -232,21 +240,22 @@ def merge(d_CTD):
     d_CTD['MMap']['ICD10CM_ct'] = d_CTD['MMap']['ICD10CM_id'].apply(len)
     d_CTD['MMap']['MESH_id_ct'] = d_CTD['MMap']['MESH_id'].apply(len)
     
-    
+    if 'NCT_id' in d_CTD['MMap'].columns:
+        d_CTD['MMap']['NCT_id'] = d_CTD['MMap']['NCT_id'].astype(str)
     d_CTD['CTD_1'] = pd.merge(d_CTD['CTD_1'], d_CTD['MMap'], on = 'NCT_id', 
-        how = 'left') ###check merge!!!
+        how = 'left')
     
     
-    d_CTD['CTD_2'] = pd.merge(d_CTD['CTD_2'], d_CTD['b_output'], 
-        on = ['cat_title','cat_exp'], how = 'left')
+    # d_CTD['CTD_2'] = pd.merge(d_CTD['CTD_2'], d_CTD['b_output'], 
+    #     on = ['cat_title','cat_exp'], how = 'left')
     
-    d_CTD['CTD_2'].loc[:,'piv_cat'] = np.where(
-        d_CTD['CTD_2']['param_type'].isin(['MEAN', 'MEDIAN']), 
-        d_CTD['CTD_2']['param_type'],
+    # d_CTD['CTD_2'].loc[:,'piv_cat'] = np.where(
+    #     d_CTD['CTD_2']['param_type'].isin(['MEAN', 'MEDIAN']), 
+    #     d_CTD['CTD_2']['param_type'],
         
-            np.where(d_CTD['CTD_2']['cat_title'] == 'enrollment', 'enrollment', 
-                     d_CTD['CTD_2']['piv_cat']) 
-            )
+    #         np.where(d_CTD['CTD_2']['cat_title'] == 'enrollment', 'enrollment', 
+    #                  d_CTD['CTD_2']['piv_cat']) 
+    #         )
     
     d_CTD['CTD_2'].loc[:, 'piv_val'] = np.where(
         (d_CTD['CTD_2']['cat_title'] == 'enrollment') & 
@@ -271,17 +280,17 @@ def merge(d_CTD):
     )
     
     
-    d_CTD['CTD_2'] = d_CTD['CTD_2'][d_CTD['CTD_2']['piv_cat'].notnull()]
-    d_CTD['CTD_2_agg'] = d_CTD['CTD_2'][d_CTD['CTD_2']
-        ['cat_title'].isin(['race', 'gender', 'age'])] \
-            .groupby(['nct_id', 'piv_cat'], as_index = False)['piv_val'].sum()
-    d_CTD['CTD_2'] = d_CTD['CTD_2'].loc[d_CTD['CTD_2']
-        ['cat_title'] == 'enrollment', ['nct_id', 'piv_cat', 'piv_val']]
-    d_CTD['CTD_2'] = pd.concat([d_CTD['CTD_2_agg'], d_CTD['CTD_2']], 
-        ignore_index = True, axis = 0)
+    # d_CTD['CTD_2'] = d_CTD['CTD_2'][d_CTD['CTD_2']['piv_cat'].notnull()]
+    # d_CTD['CTD_2_agg'] = d_CTD['CTD_2'][d_CTD['CTD_2']
+    #     ['cat_title'].isin(['race', 'gender', 'age'])] \
+    #         .groupby(['nct_id', 'piv_cat'], as_index = False)['piv_val'].sum()
+    # d_CTD['CTD_2'] = d_CTD['CTD_2'].loc[d_CTD['CTD_2']
+    #     ['cat_title'] == 'enrollment', ['nct_id', 'piv_cat', 'piv_val']]
+    # d_CTD['CTD_2'] = pd.concat([d_CTD['CTD_2_agg'], d_CTD['CTD_2']], 
+    #     ignore_index = True, axis = 0)
     
-    d_CTD['CTD_2'] = d_CTD['CTD_2'].pivot_table(index ='nct_id', 
-        columns ='piv_cat', values = 'piv_val', aggfunc = list)
+    # d_CTD['CTD_2'] = d_CTD['CTD_2'].pivot_table(index ='nct_id', 
+    #     columns ='piv_cat', values = 'piv_val', aggfunc = list)
 
 
     d_CTD['CTD_2'].reset_index(inplace = True)
@@ -295,13 +304,19 @@ def merge(d_CTD):
     # print(d_CTD['CTD_2'].columns)                                   
     # RENAME THE PIVOT COLUMNS EXACTLY
     d_CTD['CTD_2'].columns = ["NCT_id", "<18 years", ">65 years", "American Indian or Alaska Native", 
-                              "Asian", "Black or African American", "Hispanic or Latino",  "MEAN", "MEDIAN",
+                              "Asian", "Black or African American", "Hispanic or Latino",
                               "Native Hawaian or Other Pacific Islander", "White", 
                               "between 18 and 65 years", "enrollment", "female", "male", "unknown_r"]
     
+    if 'NCT_id' in d_CTD['CTD_1'].columns:
+        d_CTD['CTD_1']['NCT_id'] = d_CTD['CTD_1']['NCT_id'].astype(str)
+    
+    if 'NCT_id' in d_CTD['CTD_2'].columns:
+        d_CTD['CTD_2']['NCT_id'] = d_CTD['CTD_2']['NCT_id'].astype(str)
+
     # MERGE CTD_1 and CTD_2 => CTD
     d_CTD['CTD'] = pd.merge(
-        d_CTD['CTD_1'],   # your main table
+        d_CTD['CTD_1'],
         d_CTD['CTD_2'], 
         on="NCT_id", 
         how="left"
@@ -309,7 +324,7 @@ def merge(d_CTD):
 
     # CONVERT RELEVANT COLUMNS TO NUMERIC (skip ones not present)
     cols_to_numeric = ["<18 years", ">65 years", "American Indian or Alaska Native", 
-                       "Asian", "Black or African American", "Hispanic or Latino", "MEAN", "Native Hawaian or Other Pacific Islander",
+                       "Asian", "Black or African American", "Hispanic or Latino", "Native Hawaian or Other Pacific Islander",
                         "White", "between 18 and 65 years", "enrollment", "female", "male", "unknown_r"]
     # Convert them to numeric if possible
     d_CTD['CTD'][cols_to_numeric] = d_CTD['CTD'][cols_to_numeric].apply(
@@ -339,7 +354,7 @@ def merge(d_CTD):
     )
 
     # Age columns => "<18 years",">65 years","between 18 and 65 years","MEAN"
-    age_cols = ["<18 years", ">65 years", "between 18 and 65 years", "MEAN", "MEDIAN"]
+    age_cols = ["<18 years", ">65 years", "between 18 and 65 years"]
     d_CTD['CTD']["r_Age"] = np.where(
         d_CTD['CTD'][age_cols].notna().any(axis=1),
         1,
