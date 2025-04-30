@@ -5,10 +5,6 @@ Created on Mon Nov 18 09:50:08 2024
 @author: AnatolFiete.Naeher
 """
 
-import os
-path = 'C:\\Users\\anatolfiete.naeher\\Documents\\Code_Data\\TrialsRep'
-os.chdir(path)
-
 if __name__ == "__main__":
     from openai import OpenAI
     from config.settings import *
