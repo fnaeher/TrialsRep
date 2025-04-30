@@ -1,2 +1,25 @@
+<<<<<<< HEAD
+_archive/
+data/CTD_1.csv
+data/CTD_2.csv
+data/CTD_3.csv
+data/CTD_4.csv
+data/CTD_5.csv
+data/CTD_6.csv
+data/b_output.csv
+data/counts.csv
+data/UpdateFlags.csv
+data/CTD.csv
+data/DHTlist_old.txt
+data/_DINT_Flags
+data/c_DINT_Flags
+data/m_DINT_Flags
+data/m_DHT_Flags
+data/c_DHT_Flags
+data/_DHT_Flags
+batch_jobs_gpt.py
+batch_jobs_llama.py
+=======
 none
 *.pyc
+>>>>>>> ddd9730aeb1e6182d4e1185b820c0ed0e34454a9

@@ -230,6 +230,6 @@ def b_jobs(path, batch_filename, prompt_template, cat_dict, data, client):
         b_output.to_csv(os.path.join(path, f"{batch_filename}.csv"), 
                 index = False)
         
-    print(f"Batch job results saved as {batch_filename}.csv in {path}")
+        print(f"Batch job results saved as {batch_filename}.csv in {path}")
     
     return b_output

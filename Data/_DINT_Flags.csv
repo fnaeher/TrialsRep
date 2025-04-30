@@ -1,0 +1,2490 @@
+NCT_id,intervention_type,name,_name,_idx,DHT_searched_text
+NCT00389649,DEVICE,heart rate setting,no matches,0,heart rate setting
+NCT00533338,BEHAVIORAL,"Weight Gain Prevention Program;
+ Questionnaire",no matches,0,"Weight Gain Prevention Program;
+ Questionnaire"
+NCT00536601,"DRUG;
+ RADIATION;
+ PROCEDURE","etoposide;
+ cyclophosphamide;
+ carmustine;
+ melphalan;
+ busulfan;
+ carboplatin;
+ thiotepa;
+ total-body irradiation;
+ autologous hematopoietic stem cell transplantation;
+ autologous-autologous tandem hematopoietic stem cell transplantation",no matches,0,"etoposide;
+ cyclophosphamide;
+ carmustine;
+ melphalan;
+ busulfan;
+ carboplatin;
+ thiotepa;
+ total-body irradiation;
+ autologous hematopoietic stem cell transplantation;
+ autologous-autologous tandem hematopoietic stem cell transplantation"
+NCT00600106,DRUG,"1/10 NA/EE;
+ Placebo",no matches,0,"1/10 NA/EE;
+ Placebo"
+NCT00681135,DEVICE,"sonic toothbrush (Philips Sonicare® FlexCare, Typ HX6942/04);
+ manual toothbrush / interdental toothbrush (elmex® Inter X medium toothbrush / interdental brush Curaprox®);
+ manual toothbrush (elmex® Inter X medium toothbrush)",['philips'],1,"sonic toothbrush (Philips Sonicare® FlexCare, Typ HX6942/04);
+ manual toothbrush / interdental toothbrush (elmex® Inter X medium toothbrush / interdental brush Curaprox®);
+ manual toothbrush (elmex® Inter X medium toothbrush)"
+NCT00857376,DIETARY_SUPPLEMENT,Alpha lipoic acid at 3 doses compared to placebo,no matches,0,Alpha lipoic acid at 3 doses compared to placebo
+NCT00926692,OTHER,Blood draw,no matches,0,Blood draw
+NCT00940550,DRUG,"Prolonged-release melatonin;
+ Temazepam;
+ Zolpidem;
+ Placebo to match melatonin, zolpidem and temazepam",no matches,0,"Prolonged-release melatonin;
+ Temazepam;
+ Zolpidem;
+ Placebo to match melatonin, zolpidem and temazepam"
+NCT01127776,"DEVICE;
+ OTHER","APOS SYSTEM;
+ APOS SYSTEM without biomechanics units.",no matches,0,"APOS SYSTEM;
+ APOS SYSTEM without biomechanics units."
+NCT01391078,DEVICE,"Sensimed Triggerfish Sensor;
+ Goldmann Applanation Tonometry, Perkins Tonometry",['triggerfish'],1,"Sensimed Triggerfish Sensor;
+ Goldmann Applanation Tonometry, Perkins Tonometry"
+NCT01444846,DRUG,"SPI-1005 Low dose;
+ SPI-1005 Middle dose;
+ SPI-1005 High dose;
+ Placebo",no matches,0,"SPI-1005 Low dose;
+ SPI-1005 Middle dose;
+ SPI-1005 High dose;
+ Placebo"
+NCT01495897,DEVICE,"Tracking eye movement;
+ Tracking eye movement under deep brain stimulation",no matches,0,"Tracking eye movement;
+ Tracking eye movement under deep brain stimulation"
+NCT01599624,BEHAVIORAL,"Stress Resilience Training System (SRTS);
+ Progressive Muscle Relaxation (PMR)",no matches,0,"Stress Resilience Training System (SRTS);
+ Progressive Muscle Relaxation (PMR)"
+NCT01627652,OTHER,altitude,no matches,0,altitude
+NCT01662947,DEVICE,"Blood pressure Transtek Wrist Blood Pressure Monitor, TMB-1117;
+ Blood pressure Reference Device: Yuyue Medical Blood Pressure Meter, YYBP-2",['wrist blood pressure monitor'],1,"Blood pressure Transtek Wrist Blood Pressure Monitor, TMB-1117;
+ Blood pressure Reference Device: Yuyue Medical Blood Pressure Meter, YYBP-2"
+NCT01766622,"DRUG;
+ PROCEDURE","[18F]-CP18;
+ PET/ CT",no matches,0,"[18F]-CP18;
+ PET/ CT"
+NCT01811589,"DEVICE;
+ OTHER","Thomale-Guide;
+ Free-hand",no matches,0,"Thomale-Guide;
+ Free-hand"
+NCT01826591,BEHAVIORAL,"Low-Carbohydrate Diet;
+ Low-Fat Diet;
+ Mobile App",['mobile app'],1,"Low-Carbohydrate Diet;
+ Low-Fat Diet;
+ Mobile App"
+NCT01867437,DRUG,"Placebo;
+ RM-493",no matches,0,"Placebo;
+ RM-493"
+NCT01883024,OTHER,"A decision support software;
+ Insulin Pump;
+ Continuous glucose monitoring",no matches,0,"A decision support software;
+ Insulin Pump;
+ Continuous glucose monitoring"
+NCT01887431,OTHER,"Telecare;
+ Conventional therapy",no matches,0,"Telecare;
+ Conventional therapy"
+NCT01937104,"DRUG;
+ DEVICE;
+ PROCEDURE","Desflurane;
+ Remifentanil;
+ Ultrasonographic measurement of ONSD;
+ Mechanical ventilation;
+ Trendelenburg position - 30 degree;
+ Reverse Trendelenburg position - 30 degree",no matches,0,"Desflurane;
+ Remifentanil;
+ Ultrasonographic measurement of ONSD;
+ Mechanical ventilation;
+ Trendelenburg position - 30 degree;
+ Reverse Trendelenburg position - 30 degree"
+NCT01951937,DIETARY_SUPPLEMENT,"Fish Meals;
+ Placebo",no matches,0,"Fish Meals;
+ Placebo"
+NCT01969604,BEHAVIORAL,Motivational Lifestyle Counselling,no matches,0,Motivational Lifestyle Counselling
+NCT01976728,DRUG,"Gonadorelin acetate subcutaneous (SC) 10 μg/pulse as a fixed dose, administered via. OmniPod pump;
+ Gonadorelin acetate SC 15 μg/pulse as a fixed dose, administered via. OmniPod pump;
+ Gonadorelin acetate SC 20 μg/pulse as a fixed dose, administered via. OmniPod pump;
+ Placebo (SC 10, 15, or 20 μg/pulse as a fixed dose, administered via. OmniPod pump)",['omnipod'],1,"Gonadorelin acetate subcutaneous (SC) 10 μg/pulse as a fixed dose, administered via. OmniPod pump;
+ Gonadorelin acetate SC 15 μg/pulse as a fixed dose, administered via. OmniPod pump;
+ Gonadorelin acetate SC 20 μg/pulse as a fixed dose, administered via. OmniPod pump;
+ Placebo (SC 10, 15, or 20 μg/pulse as a fixed dose, administered via. OmniPod pump)"
+NCT02067884,"PROCEDURE;
+ DRUG;
+ DEVICE","dynamic contrast-enhanced ultrasound imaging;
+ shear wave elastography;
+ Definity, (Lipid Microspheres) Intravenous Suspension;
+ Philips Shear Wave Elastography",['philips'],1,"dynamic contrast-enhanced ultrasound imaging;
+ shear wave elastography;
+ Definity, (Lipid Microspheres) Intravenous Suspension;
+ Philips Shear Wave Elastography"
+NCT02073266,PROCEDURE,"Macular hole surgery using a 25 G pars plana vitrectomy, ILM peeling, fluid-air exchange followed by air-gas exchange with SF6 or C3F8.",no matches,0,"Macular hole surgery using a 25 G pars plana vitrectomy, ILM peeling, fluid-air exchange followed by air-gas exchange with SF6 or C3F8."
+NCT02092051,DEVICE,Continuous glucose monitoring with DexCom G4 platina,['dexcom'],1,Continuous glucose monitoring with DexCom G4 platina
+NCT02185625,DEVICE,Safe Delivery smartphone application,['smartphone'],1,Safe Delivery smartphone application
+NCT02186392,DEVICE,Circadian Light luminaries,no matches,0,Circadian Light luminaries
+NCT02203266,"DEVICE;
+ BEHAVIORAL","Feedback;
+ Education",no matches,0,"Feedback;
+ Education"
+NCT02218086,DEVICE,"Slackline;
+ Wobbling Board;
+ Pre-training;
+ Fix visual anchor;
+ Moving visual anchor;
+ Post-training;
+ Slackline vs. standing-on-1-leg vs. control",no matches,0,"Slackline;
+ Wobbling Board;
+ Pre-training;
+ Fix visual anchor;
+ Moving visual anchor;
+ Post-training;
+ Slackline vs. standing-on-1-leg vs. control"
+NCT02230280,OTHER,Strengthening Community-Based Stroke Care: A Pilot Study of a Community Navigation and Rehabilitation Intervention that Includes a Mobile Health Solution,no matches,0,Strengthening Community-Based Stroke Care: A Pilot Study of a Community Navigation and Rehabilitation Intervention that Includes a Mobile Health Solution
+NCT02265718,DRUG,"Ritalin;
+ Placebo",no matches,0,"Ritalin;
+ Placebo"
+NCT02342301,BEHAVIORAL,"Standing Desk;
+ Traditional Desk",no matches,0,"Standing Desk;
+ Traditional Desk"
+NCT02373722,"PROCEDURE;
+ OTHER;
+ BEHAVIORAL","Mohs Surgery;
+ Internet-Based Intervention;
+ Telephone-Based Intervention;
+ Educational Intervention;
+ Exercise Intervention;
+ Petrolatum-Mineral Oil-Lanolin-Ceresin Ointment;
+ Questionnaire Administration;
+ Survey Administration",no matches,0,"Mohs Surgery;
+ Internet-Based Intervention;
+ Telephone-Based Intervention;
+ Educational Intervention;
+ Exercise Intervention;
+ Petrolatum-Mineral Oil-Lanolin-Ceresin Ointment;
+ Questionnaire Administration;
+ Survey Administration"
+NCT02398344,DEVICE,"tDCS active;
+ tDCS Sham",no matches,0,"tDCS active;
+ tDCS Sham"
+NCT02411318,"BEHAVIORAL;
+ DRUG;
+ OTHER","Exercise;
+ ProLab 200mg caffeine capsule;
+ Ethanol ingestion;
+ Glucose Tolerance Drink",no matches,0,"Exercise;
+ ProLab 200mg caffeine capsule;
+ Ethanol ingestion;
+ Glucose Tolerance Drink"
+NCT02437097,OTHER,"Aerobic exercise;
+ Video Gaming;
+ Aerobic exercise and Video Gaming;
+ Control",no matches,0,"Aerobic exercise;
+ Video Gaming;
+ Aerobic exercise and Video Gaming;
+ Control"
+NCT02466061,BEHAVIORAL,"Telemedicine Weight Management plus Wi-Fi Scale (Arm A);
+ Text for Diet (Text4Diet) Group (Arm B);
+ Enhanced Usual Care Group (Arm C)",no matches,0,"Telemedicine Weight Management plus Wi-Fi Scale (Arm A);
+ Text for Diet (Text4Diet) Group (Arm B);
+ Enhanced Usual Care Group (Arm C)"
+NCT02501057,BEHAVIORAL,"Clinician's Guide;
+ Enhanced Motivational Interviewing;
+ Enhanced Clinician's Guide",no matches,0,"Clinician's Guide;
+ Enhanced Motivational Interviewing;
+ Enhanced Clinician's Guide"
+NCT02519491,OTHER,"Modified Allen Test;
+ Iphone artery assessment",['iphone'],1,"Modified Allen Test;
+ Iphone artery assessment"
+NCT02522962,BEHAVIORAL,"GroupCoreSIT;
+ Standard care",no matches,0,"GroupCoreSIT;
+ Standard care"
+NCT02539381,"PROCEDURE;
+ DEVICE","Formal Perimetry (Goldman or Octopus visual Field);
+ Albert's visual inattention test;
+ Star cancellation visual inattention test;
+ Visual field assessment to confrontation;
+ Visual inattention assessment to bilateral stimuli;
+ Digital tumbling E visual accuity assessment;
+ Digital visual field assessment;
+ Digital line crossing assessment;
+ Digital shape cancellation assessment",no matches,0,"Formal Perimetry (Goldman or Octopus visual Field);
+ Albert's visual inattention test;
+ Star cancellation visual inattention test;
+ Visual field assessment to confrontation;
+ Visual inattention assessment to bilateral stimuli;
+ Digital tumbling E visual accuity assessment;
+ Digital visual field assessment;
+ Digital line crossing assessment;
+ Digital shape cancellation assessment"
+NCT02548182,"DEVICE;
+ OTHER","smartcare;
+ financial incentives",no matches,0,"smartcare;
+ financial incentives"
+NCT02559518,DEVICE,"tDCS;
+ rTMS;
+ pp-TMS assessment",no matches,0,"tDCS;
+ rTMS;
+ pp-TMS assessment"
+NCT02573376,BEHAVIORAL,"Directly Observed Therapy;
+ Wirelessly Observed Therapy",no matches,0,"Directly Observed Therapy;
+ Wirelessly Observed Therapy"
+NCT02587260,DRUG,"Ticagrelor;
+ Prasugrel;
+ Clopidogrel",no matches,0,"Ticagrelor;
+ Prasugrel;
+ Clopidogrel"
+NCT02587585,BEHAVIORAL,"Feedback against tailored target;
+ No feedback",no matches,0,"Feedback against tailored target;
+ No feedback"
+NCT02600078,"DEVICE;
+ OTHER","AMS Monitor App;
+ Lake Louise Score;
+ Balance Error Scoring System;
+ Heart Rate & Pulse Oxygen Saturation",no matches,0,"AMS Monitor App;
+ Lake Louise Score;
+ Balance Error Scoring System;
+ Heart Rate & Pulse Oxygen Saturation"
+NCT02608827,"DEVICE;
+ OTHER","Resperate®-InterCure Ltda;
+ Music group (GC)",['resperate'],1,"Resperate®-InterCure Ltda;
+ Music group (GC)"
+NCT02659826,DEVICE,"anodal tsDCS;
+ cathodal tsDCS;
+ sham tsDCS;
+ Gait training;
+ High frequency rTMS;
+ Low frequency rTMS;
+ sham rTMS",no matches,0,"anodal tsDCS;
+ cathodal tsDCS;
+ sham tsDCS;
+ Gait training;
+ High frequency rTMS;
+ Low frequency rTMS;
+ sham rTMS"
+NCT02694263,DRUG,"Canagliflozin;
+ Repaglinide;
+ Pioglitazone;
+ Gliclazide;
+ Glimepiride",no matches,0,"Canagliflozin;
+ Repaglinide;
+ Pioglitazone;
+ Gliclazide;
+ Glimepiride"
+NCT02705521,DEVICE,Exergames- Laptop and MIcrosoft Kinect,['kinect'],1,Exergames- Laptop and MIcrosoft Kinect
+NCT02716701,"BEHAVIORAL;
+ OTHER","Exercise Group;
+ Control Group;
+ wristband activity tracker",['tracker'],1,"Exercise Group;
+ Control Group;
+ wristband activity tracker"
+NCT02720822,"DRUG;
+ DEVICE","Placebo;
+ Morphine Sulfate;
+ Plus laxative (Docusate with senna);
+ Plus placebo laxative;
+ FitBit charge HR (Accelerometer)",['fitbit charge'],1,"Placebo;
+ Morphine Sulfate;
+ Plus laxative (Docusate with senna);
+ Plus placebo laxative;
+ FitBit charge HR (Accelerometer)"
+NCT02735265,BEHAVIORAL,"Virtual reality;
+ Standard treatment",no matches,0,"Virtual reality;
+ Standard treatment"
+NCT02753829,"PROCEDURE;
+ OTHER","Cardiovascular rehabilitation program using Kinect of Xbox;
+ Cardiovascular rehabilitation program using paper manual;
+ Educational component","['xbox', 'kinect']",1,"Cardiovascular rehabilitation program using Kinect of Xbox;
+ Cardiovascular rehabilitation program using paper manual;
+ Educational component"
+NCT02768181,"BEHAVIORAL;
+ DIETARY_SUPPLEMENT","Nutrition-specific Behaviour change communication (BCC);
+ Nutrient supplement to pregnant women (PNS);
+ Nutrienr supplement to children 6m to 2 years",no matches,0,"Nutrition-specific Behaviour change communication (BCC);
+ Nutrient supplement to pregnant women (PNS);
+ Nutrienr supplement to children 6m to 2 years"
+NCT02774876,"DEVICE;
+ DRUG;
+ OTHER","Patient's insulin pump;
+ Insulin;
+ Dexcom G4 Platinum glucose sensor;
+ Single-hormone closed-loop","['dexcom', 'g4 platinum']",1,"Patient's insulin pump;
+ Insulin;
+ Dexcom G4 Platinum glucose sensor;
+ Single-hormone closed-loop"
+NCT02779725,BEHAVIORAL,"SCC;
+ Nurse Practitioner;
+ DSS;
+ AT;
+ Symptom Severity",no matches,0,"SCC;
+ Nurse Practitioner;
+ DSS;
+ AT;
+ Symptom Severity"
+NCT02780284,BEHAVIORAL,Physical activity intervention,no matches,0,Physical activity intervention
+NCT02784301,"DEVICE;
+ BEHAVIORAL","Belly breathing with biofeedback app;
+ Belly breathing without biofeedback app;
+ Belly breathing + visual distraction",no matches,0,"Belly breathing with biofeedback app;
+ Belly breathing without biofeedback app;
+ Belly breathing + visual distraction"
+NCT02794727,DEVICE,"Blinded Fitbit;
+ Unblinded Fitbit",['fitbit'],1,"Blinded Fitbit;
+ Unblinded Fitbit"
+NCT02801279,OTHER,"Conventional bilateral arm training;
+ Kinect-based bilateral arm training",['kinect'],1,"Conventional bilateral arm training;
+ Kinect-based bilateral arm training"
+NCT02818166,PROCEDURE,Mitral valve surgery,no matches,0,Mitral valve surgery
+NCT02846857,"OTHER;
+ DEVICE;
+ DRUG","15-week intervention with sensor-augmented pump;
+ 15-week intervention with single-hormone closed-loop;
+ 15-week intervention with dual-hormone closed-loop;
+ Insulin pump;
+ Continuous glucose monitoring system;
+ Insulin;
+ Glucagon",no matches,0,"15-week intervention with sensor-augmented pump;
+ 15-week intervention with single-hormone closed-loop;
+ 15-week intervention with dual-hormone closed-loop;
+ Insulin pump;
+ Continuous glucose monitoring system;
+ Insulin;
+ Glucagon"
+NCT02849392,OTHER,Pistachio added 20% of kcals to diet,no matches,0,Pistachio added 20% of kcals to diet
+NCT02869386,PROCEDURE,"STEMO;
+ Regular care",no matches,0,"STEMO;
+ Regular care"
+NCT02886871,BEHAVIORAL,Step Goal Delivery by Smartphone,['smartphone'],1,Step Goal Delivery by Smartphone
+NCT02905929,"DEVICE;
+ BEHAVIORAL;
+ OTHER","ActivPAL inclinometer;
+ Phone counseling call: Breaking up sitting time;
+ In-person counseling: Breaking up sitting time;
+ Phone counseling call: Healthy living;
+ Tools to prompt standing;
+ In-person counseling: Healthy living",['activpal'],1,"ActivPAL inclinometer;
+ Phone counseling call: Breaking up sitting time;
+ In-person counseling: Breaking up sitting time;
+ Phone counseling call: Healthy living;
+ Tools to prompt standing;
+ In-person counseling: Healthy living"
+NCT02918396,DEVICE,"Scar-Based Radio-frequency Ablation;
+ Rotor Anchors Radio-frequency Ablation;
+ Conventional PVI by Radio-frequency Ablation",no matches,0,"Scar-Based Radio-frequency Ablation;
+ Rotor Anchors Radio-frequency Ablation;
+ Conventional PVI by Radio-frequency Ablation"
+NCT02918838,BEHAVIORAL,"Own Adherence Group;
+ Fixed Adherence Group;
+ Control Group",no matches,0,"Own Adherence Group;
+ Fixed Adherence Group;
+ Control Group"
+NCT02919397,"DEVICE;
+ BEHAVIORAL","Wearable technology;
+ Diabetes Prevention Programme educational material;
+ Motivational messaging",['wearable'],1,"Wearable technology;
+ Diabetes Prevention Programme educational material;
+ Motivational messaging"
+NCT02925039,OTHER,"Rehab with computer feedback;
+ Treatment as usual",no matches,0,"Rehab with computer feedback;
+ Treatment as usual"
+NCT02935166,OTHER,Respiratory muscle training,no matches,0,Respiratory muscle training
+NCT02943499,"BEHAVIORAL;
+ DEVICE","App/Training;
+ Smartphone",['smartphone'],1,"App/Training;
+ Smartphone"
+NCT02957513,BEHAVIORAL,"Text Messaging (TM);
+ Health Coaching (HC);
+ Enhanced Usual Care (EC)",no matches,0,"Text Messaging (TM);
+ Health Coaching (HC);
+ Enhanced Usual Care (EC)"
+NCT02966054,BEHAVIORAL,Digital Health Physical Activity Intervention Group,no matches,0,Digital Health Physical Activity Intervention Group
+NCT03022032,"DEVICE;
+ OTHER","Fitbit Zip;
+ HOPE App;
+ Standard of Care;
+ Fitbit Charge 2;
+ SMART Study Intervention","['fitbit charge', 'fitbit']",1,"Fitbit Zip;
+ HOPE App;
+ Standard of Care;
+ Fitbit Charge 2;
+ SMART Study Intervention"
+NCT03030547,DEVICE,SenseWear activity monitor,['sensewear'],1,SenseWear activity monitor
+NCT03034746,OTHER,"Physical activity (PA);
+ cognitive treatment (CT)",no matches,0,"Physical activity (PA);
+ cognitive treatment (CT)"
+NCT03035019,BEHAVIORAL,Lantern,no matches,0,Lantern
+NCT03039621,DRUG,"Ergoferon;
+ Placebo",no matches,0,"Ergoferon;
+ Placebo"
+NCT03050528,BEHAVIORAL,"Supervised Exercise;
+ Acceptance and Commitment Therapy",no matches,0,"Supervised Exercise;
+ Acceptance and Commitment Therapy"
+NCT03060278,"BEHAVIORAL;
+ DRUG;
+ OTHER","Self-help materials;
+ nicotine patch;
+ Smartphone-delivered automated treatment;
+ Counseling",['smartphone'],1,"Self-help materials;
+ nicotine patch;
+ Smartphone-delivered automated treatment;
+ Counseling"
+NCT03065049,BEHAVIORAL,"Peer-Facilitated Counseling;
+ Fitbit activity tracker","['fitbit', 'tracker']",1,"Peer-Facilitated Counseling;
+ Fitbit activity tracker"
+NCT03065517,DEVICE,"VillageWhere App;
+ Attention-Control Placebo App",no matches,0,"VillageWhere App;
+ Attention-Control Placebo App"
+NCT03077425,BEHAVIORAL,"Enhanced Usual Care (EUC);
+ Intervention",no matches,0,"Enhanced Usual Care (EUC);
+ Intervention"
+NCT03121911,OTHER,"Interval Training (IT);
+ Inspiratory Muscle Training (IMT)",no matches,0,"Interval Training (IT);
+ Inspiratory Muscle Training (IMT)"
+NCT03131440,BEHAVIORAL,"Core;
+ Support Calls;
+ App+;
+ Online gym;
+ App notifications;
+ Buddy",no matches,0,"Core;
+ Support Calls;
+ App+;
+ Online gym;
+ App notifications;
+ Buddy"
+NCT03137836,BEHAVIORAL,Intervention,no matches,0,Intervention
+NCT03182699,DIAGNOSTIC_TEST,"cardiac MRI;
+ echocardiography with strain;
+ Laboratory tests;
+ Body composition monitoring;
+ lung ultrasound",no matches,0,"cardiac MRI;
+ echocardiography with strain;
+ Laboratory tests;
+ Body composition monitoring;
+ lung ultrasound"
+NCT03194750,OTHER,"Share ultrasound measurement of IVC collapsibility to Nephrology Attending;
+ Do not share ultrasound measurement of IVC collapsibility to Nephrology Attending",no matches,0,"Share ultrasound measurement of IVC collapsibility to Nephrology Attending;
+ Do not share ultrasound measurement of IVC collapsibility to Nephrology Attending"
+NCT03206619,OTHER,"Social, Local and Mobile",no matches,0,"Social, Local and Mobile"
+NCT03213236,DIAGNOSTIC_TEST,Homemonitoring diagnostic system,no matches,0,Homemonitoring diagnostic system
+NCT03225885,OTHER,"Multimedia Information;
+ Printed Handout",no matches,0,"Multimedia Information;
+ Printed Handout"
+NCT03228082,DEVICE,Home Blood Pressure Monitoring (HBPM),no matches,0,Home Blood Pressure Monitoring (HBPM)
+NCT03228459,"DIAGNOSTIC_TEST;
+ OTHER","Dried blood spot test;
+ Urine test;
+ Artery ultrasound;
+ Ankle-brachial index;
+ Spirometry;
+ Determination of advanced glycation-end products;
+ Atrial fibrillation screening;
+ Biological sample collection;
+ Result and recommendation report;
+ Pulse wave velocity",no matches,0,"Dried blood spot test;
+ Urine test;
+ Artery ultrasound;
+ Ankle-brachial index;
+ Spirometry;
+ Determination of advanced glycation-end products;
+ Atrial fibrillation screening;
+ Biological sample collection;
+ Result and recommendation report;
+ Pulse wave velocity"
+NCT03280563,DRUG,"Atezolizumab (MPDL3280A), an engineered anti-programmed death-ligand 1 (PD-L1) antibody;
+ Bevacizumab;
+ Entinostat;
+ Exemestane;
+ Fulvestrant;
+ Ipatasertib;
+ Tamoxifen;
+ Abemaciclib",no matches,0,"Atezolizumab (MPDL3280A), an engineered anti-programmed death-ligand 1 (PD-L1) antibody;
+ Bevacizumab;
+ Entinostat;
+ Exemestane;
+ Fulvestrant;
+ Ipatasertib;
+ Tamoxifen;
+ Abemaciclib"
+NCT03281369,"DRUG;
+ BIOLOGICAL","5-Fluorouracil (5-FU);
+ Leucovorin;
+ Oxaliplatin;
+ Atezolizumab;
+ Cobimetinib;
+ Ramucirumab;
+ Paclitaxel;
+ PEGylated recombinant human hyaluronidase (PEGPH20);
+ BL-8040;
+ Linagliptin;
+ Cisplatin;
+ Tiragolumab",no matches,0,"5-Fluorouracil (5-FU);
+ Leucovorin;
+ Oxaliplatin;
+ Atezolizumab;
+ Cobimetinib;
+ Ramucirumab;
+ Paclitaxel;
+ PEGylated recombinant human hyaluronidase (PEGPH20);
+ BL-8040;
+ Linagliptin;
+ Cisplatin;
+ Tiragolumab"
+NCT03284255,DEVICE,"study group;
+ control group",no matches,0,"study group;
+ control group"
+NCT03288142,OTHER,"Hypertension Coaching Application and Home Monitor;
+ Control: Tracking Application and Home Monitor",no matches,0,"Hypertension Coaching Application and Home Monitor;
+ Control: Tracking Application and Home Monitor"
+NCT03293095,PROCEDURE,Standard Care,no matches,0,Standard Care
+NCT03309306,"OTHER;
+ BEHAVIORAL","Natural Environment/Stress Management;
+ Natural Environment/Reduce Food Waste",no matches,0,"Natural Environment/Stress Management;
+ Natural Environment/Reduce Food Waste"
+NCT03334318,"OTHER;
+ DRUG","Mean blood glucose;
+ Blood glucose CV;
+ % time 70-180 mg/dL;
+ % time below 54 mg/dL;
+ % time above 180 mg/dL;
+ % time above 250 mg/dL;
+ MAGE (Mean amplitude of glucose excursions);
+ LBGI (Low Blood Glucose Index);
+ HBGI (High Blood Glucose Index);
+ Allopurinol;
+ Placebo",no matches,0,"Mean blood glucose;
+ Blood glucose CV;
+ % time 70-180 mg/dL;
+ % time below 54 mg/dL;
+ % time above 180 mg/dL;
+ % time above 250 mg/dL;
+ MAGE (Mean amplitude of glucose excursions);
+ LBGI (Low Blood Glucose Index);
+ HBGI (High Blood Glucose Index);
+ Allopurinol;
+ Placebo"
+NCT03352219,BEHAVIORAL,"Reality Check;
+ Physical Activity Attention Control",no matches,0,"Reality Check;
+ Physical Activity Attention Control"
+NCT03355287,OTHER,"Traditionally Threshed Teff (TTT);
+ Lab Threshed Teff (LTT);
+ Fortified Lab Threshed Teff (FTT)",no matches,0,"Traditionally Threshed Teff (TTT);
+ Lab Threshed Teff (LTT);
+ Fortified Lab Threshed Teff (FTT)"
+NCT03357042,OTHER,"Aerobic exercise and balance retraining;
+ Standard of care",no matches,0,"Aerobic exercise and balance retraining;
+ Standard of care"
+NCT03386786,BEHAVIORAL,"Health Partner;
+ Standard Care",no matches,0,"Health Partner;
+ Standard Care"
+NCT03424005,DRUG,"Capecitabine;
+ Atezolizumab;
+ Ipatasertib;
+ SGN-LIV1A;
+ Bevacizumab;
+ Chemotherapy (Gemcitabine + Carboplatin or Eribulin);
+ Selicrelumab;
+ Tocilizumab;
+ Nab-Paclitaxel;
+ Sacituzumab Govitecan;
+ Abemaciclib;
+ Fulvestrant;
+ Ribociclib (dose #1);
+ Inavolisib (dose #2);
+ Trastuzumab Deruxtecan;
+ Ribociclib (dose #2);
+ Letrozole;
+ Inavolisib (dose #1);
+ Inavolisib",no matches,0,"Capecitabine;
+ Atezolizumab;
+ Ipatasertib;
+ SGN-LIV1A;
+ Bevacizumab;
+ Chemotherapy (Gemcitabine + Carboplatin or Eribulin);
+ Selicrelumab;
+ Tocilizumab;
+ Nab-Paclitaxel;
+ Sacituzumab Govitecan;
+ Abemaciclib;
+ Fulvestrant;
+ Ribociclib (dose #1);
+ Inavolisib (dose #2);
+ Trastuzumab Deruxtecan;
+ Ribociclib (dose #2);
+ Letrozole;
+ Inavolisib (dose #1);
+ Inavolisib"
+NCT03424538,OTHER,"Neurorehabilitation;
+ Physiotherapy",no matches,0,"Neurorehabilitation;
+ Physiotherapy"
+NCT03426137,"DRUG;
+ OTHER","Oxycodone;
+ Ketorolac;
+ Placebo",no matches,0,"Oxycodone;
+ Ketorolac;
+ Placebo"
+NCT03436628,DEVICE,MyT1DHero,no matches,0,MyT1DHero
+NCT03446716,BEHAVIORAL,Sleep Extension,no matches,0,Sleep Extension
+NCT03458702,BEHAVIORAL,"YogaFit;
+ Quiet Rest",no matches,0,"YogaFit;
+ Quiet Rest"
+NCT03483220,DIAGNOSTIC_TEST,MRI brain,no matches,0,MRI brain
+NCT03494127,DEVICE,"Use of GEL BALL FITTED MODULAR CUSHION;
+ Use of SQUISHINS FITTED MODULAR CUSHION",no matches,0,"Use of GEL BALL FITTED MODULAR CUSHION;
+ Use of SQUISHINS FITTED MODULAR CUSHION"
+NCT03499080,BEHAVIORAL,"Medication free treatment;
+ Treatment as usual Myrvegen;
+ Treatment as usual Åråsen",no matches,0,"Medication free treatment;
+ Treatment as usual Myrvegen;
+ Treatment as usual Åråsen"
+NCT03533985,"BEHAVIORAL;
+ OTHER","Song of Kin;
+ Gato box;
+ Ocean disc;
+ Contingent singing;
+ Tonal Vocal holding;
+ Muted shaker",no matches,0,"Song of Kin;
+ Gato box;
+ Ocean disc;
+ Contingent singing;
+ Tonal Vocal holding;
+ Muted shaker"
+NCT03537963,OTHER,"mHealth Stepped-care Intervention;
+ Educational Control Condition;
+ Questionnaire;
+ Interview;
+ Qualitative Interviews;
+ Virtual Reality",['mhealth'],1,"mHealth Stepped-care Intervention;
+ Educational Control Condition;
+ Questionnaire;
+ Interview;
+ Qualitative Interviews;
+ Virtual Reality"
+NCT03538808,"DRUG;
+ OTHER","Varenicline;
+ Placebo",no matches,0,"Varenicline;
+ Placebo"
+NCT03539354,"DEVICE;
+ PROCEDURE;
+ DRUG","Temporary spinal cord stimulation;
+ Coronary artery bypass grafting;
+ B-blockers",no matches,0,"Temporary spinal cord stimulation;
+ Coronary artery bypass grafting;
+ B-blockers"
+NCT03555149,"DRUG;
+ GENETIC","Regorafenib;
+ Atezolizumab;
+ Imprime PGG;
+ Bevacizumab;
+ Isatuximab;
+ Selicrelumab;
+ Idasanutlin;
+ AB928;
+ LOAd703",no matches,0,"Regorafenib;
+ Atezolizumab;
+ Imprime PGG;
+ Bevacizumab;
+ Isatuximab;
+ Selicrelumab;
+ Idasanutlin;
+ AB928;
+ LOAd703"
+NCT03556410,BEHAVIORAL,"sleep;
+ exercise",no matches,0,"sleep;
+ exercise"
+NCT03558698,OTHER,"Good ventilation;
+ Ventilation CO2;
+ Poor Ventilation",no matches,0,"Good ventilation;
+ Ventilation CO2;
+ Poor Ventilation"
+NCT03590158,BEHAVIORAL,TRF,no matches,0,TRF
+NCT03640416,DEVICE,Fitbit® Charge HR smart watch,"['fitbit', 'smart watch']",1,Fitbit® Charge HR smart watch
+NCT03649828,DIETARY_SUPPLEMENT,"probiotic milk fermented with kefir grains;
+ curd",no matches,0,"probiotic milk fermented with kefir grains;
+ curd"
+NCT03692195,"DEVICE;
+ OTHER","WHOOP Strap 2.0;
+ No Device",['whoop'],1,"WHOOP Strap 2.0;
+ No Device"
+NCT03698890,DEVICE,Network-based home blood pressure monitor,no matches,0,Network-based home blood pressure monitor
+NCT03701594,OTHER,"Yoga-based physical therapy group;
+ Seated Rest;
+ Conventional Physical Therapy",no matches,0,"Yoga-based physical therapy group;
+ Seated Rest;
+ Conventional Physical Therapy"
+NCT03712319,BEHAVIORAL,"REM Volver a casa;
+ Mindfulness-Based Stress Reduction program",no matches,0,"REM Volver a casa;
+ Mindfulness-Based Stress Reduction program"
+NCT03731507,DEVICE,Assessment of Range of Motion with Kinect Controller,['kinect'],1,Assessment of Range of Motion with Kinect Controller
+NCT03740477,DIAGNOSTIC_TEST,ECG,no matches,0,ECG
+NCT03750448,OTHER,"Telerehabilitation;
+ No intervention;
+ Unsupervised rehabilitation",no matches,0,"Telerehabilitation;
+ No intervention;
+ Unsupervised rehabilitation"
+NCT03755063,OTHER,Speech therapy apps,no matches,0,Speech therapy apps
+NCT03764280,OTHER,Multiple Daily Injections: Slow acting insulin and Rapid acting insulin,no matches,0,Multiple Daily Injections: Slow acting insulin and Rapid acting insulin
+NCT03783390,BEHAVIORAL,"Exercise Intervention;
+ Newsletter",no matches,0,"Exercise Intervention;
+ Newsletter"
+NCT03783481,"DEVICE;
+ OTHER","Mobile community;
+ No Mobile community",no matches,0,"Mobile community;
+ No Mobile community"
+NCT03804411,DRUG,"Automatic system guided treatment;
+ Standard treatment",no matches,0,"Automatic system guided treatment;
+ Standard treatment"
+NCT03805243,DEVICE,"test of sensors for somnonaute device;
+ test of sensors for uronaute device;
+ test of sensors for toconaute device;
+ test of sensors for neuronaute device;
+ test of sensors for cardioskin device","['neuronaute', 'cardioskin']",1,"test of sensors for somnonaute device;
+ test of sensors for uronaute device;
+ test of sensors for toconaute device;
+ test of sensors for neuronaute device;
+ test of sensors for cardioskin device"
+NCT03809130,OTHER,"Internet-Based Intervention;
+ Quality-of-Life Assessment;
+ Questionnaire Administration",no matches,0,"Internet-Based Intervention;
+ Quality-of-Life Assessment;
+ Questionnaire Administration"
+NCT03820401,"DEVICE;
+ OTHER","choice of dialyzer;
+ choice of dialysis mode;
+ choice of anticoagulation strategy;
+ preparation of dialyzer",no matches,0,"choice of dialyzer;
+ choice of dialysis mode;
+ choice of anticoagulation strategy;
+ preparation of dialyzer"
+NCT03835910,"BEHAVIORAL;
+ PROCEDURE","Social Incentives and Gamification to Promote Exercise;
+ Corticosteroid Injection given in A-B order;
+ No Social Incentive applied;
+ Corticosteroid Injection given in B-A order",no matches,0,"Social Incentives and Gamification to Promote Exercise;
+ Corticosteroid Injection given in A-B order;
+ No Social Incentive applied;
+ Corticosteroid Injection given in B-A order"
+NCT03836547,BEHAVIORAL,"Coaching and Weight Loss for patients with dyspnea;
+ Active Control",no matches,0,"Coaching and Weight Loss for patients with dyspnea;
+ Active Control"
+NCT03843320,DEVICE,"SAPIEN 3;
+ SAPIEN XT;
+ INSPIRIS RESILIA;
+ EDWARDS INTUITY;
+ Carpentier-Edwards PERIMOUNT Magna-Ease",no matches,0,"SAPIEN 3;
+ SAPIEN XT;
+ INSPIRIS RESILIA;
+ EDWARDS INTUITY;
+ Carpentier-Edwards PERIMOUNT Magna-Ease"
+NCT03862222,"OTHER;
+ DIAGNOSTIC_TEST;
+ GENETIC","Retinal Imaging;
+ Pupillometry;
+ Contrast Sensitivity;
+ Neuropsychological Evaluation;
+ APOE genotyping;
+ blood draw;
+ Gait Assessment;
+ Actigraphy",no matches,0,"Retinal Imaging;
+ Pupillometry;
+ Contrast Sensitivity;
+ Neuropsychological Evaluation;
+ APOE genotyping;
+ blood draw;
+ Gait Assessment;
+ Actigraphy"
+NCT03865433,OTHER,"Aerobic Exercise;
+ Placebo/Stretching",no matches,0,"Aerobic Exercise;
+ Placebo/Stretching"
+NCT03869112,"BEHAVIORAL;
+ OTHER","Physical activity intervention;
+ Pulmonary rehabilitation group",no matches,0,"Physical activity intervention;
+ Pulmonary rehabilitation group"
+NCT03869138,BEHAVIORAL,Virtual-reality based dance training,no matches,0,Virtual-reality based dance training
+NCT03883126,BEHAVIORAL,Contingency management,no matches,0,Contingency management
+NCT03884946,OTHER,Getting Off App,no matches,0,Getting Off App
+NCT03901534,DEVICE,"Continuous positive airway pressure (CPAP) therapy;
+ Nox A1 Recorder",['nox a1'],1,"Continuous positive airway pressure (CPAP) therapy;
+ Nox A1 Recorder"
+NCT03920761,DEVICE,"EarlySense Insight system;
+ Advanced Neonatal Epidermal System",['earlysense'],1,"EarlySense Insight system;
+ Advanced Neonatal Epidermal System"
+NCT03930511,PROCEDURE,Pulmonary Rehabilitation,no matches,0,Pulmonary Rehabilitation
+NCT03933124,DEVICE,Virtual Reality,no matches,0,Virtual Reality
+NCT03948490,"DEVICE;
+ BEHAVIORAL","ReMind iPad app;
+ Healthy SMS texting;
+ In-person cognitive rehabilitation;
+ Telehealth cognitive rehabilitation",['ipad'],1,"ReMind iPad app;
+ Healthy SMS texting;
+ In-person cognitive rehabilitation;
+ Telehealth cognitive rehabilitation"
+NCT03950427,"BEHAVIORAL;
+ DRUG","Videogame-based physical activity;
+ sedentary videogame;
+ Bupropion;
+ Counseling",no matches,0,"Videogame-based physical activity;
+ sedentary videogame;
+ Bupropion;
+ Counseling"
+NCT03973229,"DRUG;
+ OTHER","Estradiol patch;
+ Placebo patch",no matches,0,"Estradiol patch;
+ Placebo patch"
+NCT03978507,BEHAVIORAL,"Intelligent cueing;
+ Feedback about the number of steps",no matches,0,"Intelligent cueing;
+ Feedback about the number of steps"
+NCT03993886,"DEVICE;
+ OTHER","CorBand;
+ Activity Monitor;
+ Bioimpedance spectrometer;
+ ECG;
+ respiratory rate sensor",['corband'],1,"CorBand;
+ Activity Monitor;
+ Bioimpedance spectrometer;
+ ECG;
+ respiratory rate sensor"
+NCT04000958,DRUG,"PIRF measured by InCheck DIAL;
+ Regular treament",no matches,0,"PIRF measured by InCheck DIAL;
+ Regular treament"
+NCT04003701,BEHAVIORAL,"Usual care;
+ Robot-assisted puncture procedure",no matches,0,"Usual care;
+ Robot-assisted puncture procedure"
+NCT04006743,BEHAVIORAL,"The swaddling group;
+ The expressed breast milk group;
+ The facilitated tucking group;
+ The swaddling and expressed breast milk group;
+ The facilitated tucking and expressed breast milk group",no matches,0,"The swaddling group;
+ The expressed breast milk group;
+ The facilitated tucking group;
+ The swaddling and expressed breast milk group;
+ The facilitated tucking and expressed breast milk group"
+NCT04008199,OTHER,Super Abbu,no matches,0,Super Abbu
+NCT04049162,DIETARY_SUPPLEMENT,"Blueberry Plus Exercise (BB-EX);
+ Blueberry Placebo Plus Exercise (P-EX)",no matches,0,"Blueberry Plus Exercise (BB-EX);
+ Blueberry Placebo Plus Exercise (P-EX)"
+NCT04053712,"DRUG;
+ DEVICE","Glucagon;
+ Closed-loop system",no matches,0,"Glucagon;
+ Closed-loop system"
+NCT04060056,OTHER,"Standardized breakfast;
+ Standardized snack;
+ Standardized lunch",no matches,0,"Standardized breakfast;
+ Standardized snack;
+ Standardized lunch"
+NCT04067830,"OTHER;
+ PROCEDURE;
+ DEVICE","Best Practice;
+ Laparoscopic Surgery;
+ Quality-of-Life Assessment;
+ Questionnaire Administration;
+ Respiratory Muscle Training Device;
+ Video-Assisted Thoracic Surgery",no matches,0,"Best Practice;
+ Laparoscopic Surgery;
+ Quality-of-Life Assessment;
+ Questionnaire Administration;
+ Respiratory Muscle Training Device;
+ Video-Assisted Thoracic Surgery"
+NCT04082715,DRUG,"carbidopa/levodopa and celecoxib;
+ placebo1 and celecoxib;
+ placebo1 and placebo2",no matches,0,"carbidopa/levodopa and celecoxib;
+ placebo1 and celecoxib;
+ placebo1 and placebo2"
+NCT04086576,DEVICE,"Alcohoot;
+ BACtrack Mobile Pro;
+ DRIVESAFE Evoc;
+ BACtrack Vio;
+ Drinkmate;
+ Floome;
+ Intoxilyzer 240",no matches,0,"Alcohoot;
+ BACtrack Mobile Pro;
+ DRIVESAFE Evoc;
+ BACtrack Vio;
+ Drinkmate;
+ Floome;
+ Intoxilyzer 240"
+NCT04090242,DEVICE,BD Diabetes Care Application (for mobile devices) PLUS use of BD Nano Pen Needle,no matches,0,BD Diabetes Care Application (for mobile devices) PLUS use of BD Nano Pen Needle
+NCT04091165,OTHER,My Plate Calorie Tracker,['tracker'],1,My Plate Calorie Tracker
+NCT04094831,OTHER,Health education,no matches,0,Health education
+NCT04096989,OTHER,"Traditional Chinese medicine regimen-based lifestyle mobile health APP;
+ Lifestyle mobile health APP",no matches,0,"Traditional Chinese medicine regimen-based lifestyle mobile health APP;
+ Lifestyle mobile health APP"
+NCT04101422,BEHAVIORAL,"Augmented Reality 1;
+ Augmented Reality 2;
+ Augmented Reality 3;
+ Augmented Reality 4",no matches,0,"Augmented Reality 1;
+ Augmented Reality 2;
+ Augmented Reality 3;
+ Augmented Reality 4"
+NCT04111419,DRUG,"Amlodipine/Atorvastatin 5 Mg-20 Mg ORAL TABLET;
+ Amlodipine/Atorvastatin 5 Mg-10 Mg ORAL TABLET;
+ Allisartan Isoproxil",no matches,0,"Amlodipine/Atorvastatin 5 Mg-20 Mg ORAL TABLET;
+ Amlodipine/Atorvastatin 5 Mg-10 Mg ORAL TABLET;
+ Allisartan Isoproxil"
+NCT04125914,"BEHAVIORAL;
+ OTHER","Behavioral Dietary Intervention;
+ E-mail;
+ Exercise Intervention;
+ Health Promotion and Education;
+ Internet-Based Intervention;
+ Questionnaire Administration;
+ Telephone-Based Intervention",no matches,0,"Behavioral Dietary Intervention;
+ E-mail;
+ Exercise Intervention;
+ Health Promotion and Education;
+ Internet-Based Intervention;
+ Questionnaire Administration;
+ Telephone-Based Intervention"
+NCT04136379,DIAGNOSTIC_TEST,INR monitoring using a CoaguChek POC device,['coaguchek'],1,INR monitoring using a CoaguChek POC device
+NCT04139590,DEVICE,"Panda;
+ Visual Analogue Scale - Original",no matches,0,"Panda;
+ Visual Analogue Scale - Original"
+NCT04141124,OTHER,"breathing exercise/HRV-biofeedback;
+ Relaxing Breathing;
+ Control",no matches,0,"breathing exercise/HRV-biofeedback;
+ Relaxing Breathing;
+ Control"
+NCT04154904,OTHER,Exercise,no matches,0,Exercise
+NCT04160741,"OTHER;
+ RADIATION","Radiation and warm environment;
+ Warm environment;
+ Neutral environment with radiation;
+ Neutral environment without radiation",no matches,0,"Radiation and warm environment;
+ Warm environment;
+ Neutral environment with radiation;
+ Neutral environment without radiation"
+NCT04171245,"OTHER;
+ DEVICE","Laughie laughter prescription;
+ Sleep tracking equipment",no matches,0,"Laughie laughter prescription;
+ Sleep tracking equipment"
+NCT04173026,OTHER,"Provider-level intervention;
+ Patient-level intervention",no matches,0,"Provider-level intervention;
+ Patient-level intervention"
+NCT04183907,BEHAVIORAL,Transform,no matches,0,Transform
+NCT04186832,"DEVICE;
+ OTHER","FitBit;
+ Pedometer;
+ Quality-of-Life Assessment;
+ Questionnaire Administration",['fitbit'],1,"FitBit;
+ Pedometer;
+ Quality-of-Life Assessment;
+ Questionnaire Administration"
+NCT04194697,BEHAVIORAL,"Exercise;
+ No exercise",no matches,0,"Exercise;
+ No exercise"
+NCT04228289,"DRUG;
+ OTHER","Oxytocin;
+ Placebo",no matches,0,"Oxytocin;
+ Placebo"
+NCT04230421,DEVICE,"The Monsenso system with feedback;
+ The Monsenso system without feedback;
+ CAG Bipola and mood monitoring only",['monsenso'],1,"The Monsenso system with feedback;
+ The Monsenso system without feedback;
+ CAG Bipola and mood monitoring only"
+NCT04241939,BEHAVIORAL,"Numberless BDS;
+ Digital Scale;
+ Modified Motivational Interviewing",no matches,0,"Numberless BDS;
+ Digital Scale;
+ Modified Motivational Interviewing"
+NCT04253431,DEVICE,"Droplet lancing device (HTL-Strefa S.A.);
+ Microlet 2 lancing device (Bayer);
+ OneTouch Delicia lancing device (LifeScan);
+ ReliOn lancing device (ReliOn);
+ Accu-Chek Softclix lancing device (Roche);
+ BGStar lancing device (Sanofi Aventis);
+ Ultra-Fine 33G lancets (BD);
+ Droplet 33G lancets (HTL-Strefa S.A.);
+ OneTouch Delicia Extra Fine 33G lancets (LifeScan);
+ HaemoFine 33G lancets (HTL-Strefa S.A.);
+ Softclix 28 G lancets (Roche);
+ ReliOn Ultra-Thin Plus 33G lancets (ReliOn);
+ GlucoJect Dual S lancing device (Menarini);
+ Microlet 28G lancets (Bayer);
+ BGStar Ultra-Thin 33G lancets (Sanofi Aventis)","['onetouch', 'accu-chek', 'bgstar', 'relion']",1,"Droplet lancing device (HTL-Strefa S.A.);
+ Microlet 2 lancing device (Bayer);
+ OneTouch Delicia lancing device (LifeScan);
+ ReliOn lancing device (ReliOn);
+ Accu-Chek Softclix lancing device (Roche);
+ BGStar lancing device (Sanofi Aventis);
+ Ultra-Fine 33G lancets (BD);
+ Droplet 33G lancets (HTL-Strefa S.A.);
+ OneTouch Delicia Extra Fine 33G lancets (LifeScan);
+ HaemoFine 33G lancets (HTL-Strefa S.A.);
+ Softclix 28 G lancets (Roche);
+ ReliOn Ultra-Thin Plus 33G lancets (ReliOn);
+ GlucoJect Dual S lancing device (Menarini);
+ Microlet 28G lancets (Bayer);
+ BGStar Ultra-Thin 33G lancets (Sanofi Aventis)"
+NCT04275999,"DRUG;
+ BEHAVIORAL;
+ DEVICE","ivermectin;
+ digital interaction;
+ GPSkin",['gpskin'],1,"ivermectin;
+ digital interaction;
+ GPSkin"
+NCT04280562,DEVICE,"Sana Pain Reliever;
+ Sham SPR",no matches,0,"Sana Pain Reliever;
+ Sham SPR"
+NCT04289844,OTHER,"Elastic-explosive and resistance strength;
+ Elastic-explosive strength",no matches,0,"Elastic-explosive and resistance strength;
+ Elastic-explosive strength"
+NCT04293952,OTHER,"Balance, Resistance, Aerobic, Cognition Exercises (BRACE);
+ Balance Resistance Exercise (BRE)",no matches,0,"Balance, Resistance, Aerobic, Cognition Exercises (BRACE);
+ Balance Resistance Exercise (BRE)"
+NCT04301284,DRUG,"CAD-1883;
+ Placebos",no matches,0,"CAD-1883;
+ Placebos"
+NCT04323423,BEHAVIORAL,interrupting sedentary behaviour with light physical activity,no matches,0,interrupting sedentary behaviour with light physical activity
+NCT04330560,"DEVICE;
+ PROCEDURE","Exercise telemonitoring connects to healthcare platform;
+ Exercise self-monitoring;
+ Exercise teleconsultation;
+ Other CR components;
+ Standard care",no matches,0,"Exercise telemonitoring connects to healthcare platform;
+ Exercise self-monitoring;
+ Exercise teleconsultation;
+ Other CR components;
+ Standard care"
+NCT04332172,"OTHER;
+ BEHAVIORAL","General information;
+ Baseline brief intervention;
+ Remote online booster sessions;
+ SMS",no matches,0,"General information;
+ Baseline brief intervention;
+ Remote online booster sessions;
+ SMS"
+NCT04338152,BEHAVIORAL,"Family Focused Therapy for Clinical High Risk Youth (FFT-CHR);
+ Enhanced Care (EC)",no matches,0,"Family Focused Therapy for Clinical High Risk Youth (FFT-CHR);
+ Enhanced Care (EC)"
+NCT04342494,"BEHAVIORAL;
+ DEVICE","Enhanced Feedback + Standard Feedback;
+ Headspace app + Standard Feedback;
+ Headspace app + Enhanced Feedback + Standard Feedback;
+ SilverCloud + Standard Feedback;
+ SilverCloud app +Enhanced Feedback +Standard Feedback",['silvercloud'],1,"Enhanced Feedback + Standard Feedback;
+ Headspace app + Standard Feedback;
+ Headspace app + Enhanced Feedback + Standard Feedback;
+ SilverCloud + Standard Feedback;
+ SilverCloud app +Enhanced Feedback +Standard Feedback"
+NCT04352374,"OTHER;
+ DEVICE","Aerobic exercise;
+ Device guided breathing",no matches,0,"Aerobic exercise;
+ Device guided breathing"
+NCT04365842,"BEHAVIORAL;
+ OTHER","Digital exercise group;
+ General Home Hand Therapy",no matches,0,"Digital exercise group;
+ General Home Hand Therapy"
+NCT04366037,OTHER,"Routine training;
+ Routine training + proprioceptive exercise in warm-up;
+ Routine training + proprioceptive exercise in cool-down",no matches,0,"Routine training;
+ Routine training + proprioceptive exercise in warm-up;
+ Routine training + proprioceptive exercise in cool-down"
+NCT04430153,OTHER,"""Class 1 Medical Device"" CE certified devices: ActiGraph wGT3X-BT accelerometer","['actigraph', 'wgt3x-bt']",1,"""Class 1 Medical Device"" CE certified devices: ActiGraph wGT3X-BT accelerometer"
+NCT04451356,"DEVICE;
+ DIAGNOSTIC_TEST","Bioimpedance Spectroscopy;
+ Arterial Stiffness;
+ Echocardiography;
+ Lung ultrasonography",no matches,0,"Bioimpedance Spectroscopy;
+ Arterial Stiffness;
+ Echocardiography;
+ Lung ultrasonography"
+NCT04464993,BEHAVIORAL,"Device-based feedback, self-monitoring, and education: CORE;
+ Sedentary Screen Time lockout: LOCKOUT;
+ Context-based prompts: TEXT;
+ Earn sedentary screen time through moderate-vigorous physical activity: EARN",no matches,0,"Device-based feedback, self-monitoring, and education: CORE;
+ Sedentary Screen Time lockout: LOCKOUT;
+ Context-based prompts: TEXT;
+ Earn sedentary screen time through moderate-vigorous physical activity: EARN"
+NCT04474509,BEHAVIORAL,"FACT Module Engagement;
+ FACT Module Openness;
+ FACT Module Awareness",no matches,0,"FACT Module Engagement;
+ FACT Module Openness;
+ FACT Module Awareness"
+NCT04480255,OTHER,"Group 1: Standard of Care;
+ Group 2: NICU2HOME+ app",no matches,0,"Group 1: Standard of Care;
+ Group 2: NICU2HOME+ app"
+NCT04487470,OTHER,"Flavored filtered cigars;
+ Unflavored filtered cigars",no matches,0,"Flavored filtered cigars;
+ Unflavored filtered cigars"
+NCT04506476,DEVICE,"Fitness tracker based activity training for Arm A and B. Booklet ""physical training, exercise and cancer"" and an introduction about physical activity during cancer therapy for Arm A, B, C",['fitness tracker'],1,"Fitness tracker based activity training for Arm A and B. Booklet ""physical training, exercise and cancer"" and an introduction about physical activity during cancer therapy for Arm A, B, C"
+NCT04514172,"DEVICE;
+ OTHER","Passive industrial exoskeleton for back support;
+ The protocol will be performed without exoskeleton",no matches,0,"Passive industrial exoskeleton for back support;
+ The protocol will be performed without exoskeleton"
+NCT04524871,DRUG,"Atezolizumab;
+ Bevacizumab 15 mg/kg;
+ Tiragolumab;
+ Tocilizumab;
+ TPST-1120;
+ Tobemstomig 2100 mg;
+ Bevacizumab 10 mg/kg;
+ Tobemstomig 600 mg;
+ Tobemstomig 1200 mg;
+ ADG126;
+ IO-108 1800 mg;
+ NKT2152;
+ IO-108 1200 mg",no matches,0,"Atezolizumab;
+ Bevacizumab 15 mg/kg;
+ Tiragolumab;
+ Tocilizumab;
+ TPST-1120;
+ Tobemstomig 2100 mg;
+ Bevacizumab 10 mg/kg;
+ Tobemstomig 600 mg;
+ Tobemstomig 1200 mg;
+ ADG126;
+ IO-108 1800 mg;
+ NKT2152;
+ IO-108 1200 mg"
+NCT04525222,"OTHER;
+ BEHAVIORAL","Health Promotion and Education;
+ Smoking Cessation Intervention (Actify app);
+ Smoking Cessation Intervention (Current Standard Care app);
+ Survey Administration",no matches,0,"Health Promotion and Education;
+ Smoking Cessation Intervention (Actify app);
+ Smoking Cessation Intervention (Current Standard Care app);
+ Survey Administration"
+NCT04537858,DEVICE,"Virtual reality therapy first;
+ Conventional therapy first",no matches,0,"Virtual reality therapy first;
+ Conventional therapy first"
+NCT04545034,OTHER,water aerobic exercise,no matches,0,water aerobic exercise
+NCT04556305,BEHAVIORAL,"Mind;
+ Move",no matches,0,"Mind;
+ Move"
+NCT04557748,OTHER,"Observational;
+ Observational Controls;
+ Central Sensitization;
+ Physical Activity and Sleep Tracker;
+ Physical Activity and Sleep Tracker Controls;
+ Organ-Based;
+ Qualitative Assessment of Patients with Urinary Urgency",['sleep tracker'],1,"Observational;
+ Observational Controls;
+ Central Sensitization;
+ Physical Activity and Sleep Tracker;
+ Physical Activity and Sleep Tracker Controls;
+ Organ-Based;
+ Qualitative Assessment of Patients with Urinary Urgency"
+NCT04562987,BEHAVIORAL,"Physical Activity;
+ Attentional Control",no matches,0,"Physical Activity;
+ Attentional Control"
+NCT04573972,BEHAVIORAL,"Social Incentive;
+ Standard Incentive",no matches,0,"Social Incentive;
+ Standard Incentive"
+NCT04581031,"DEVICE;
+ OTHER","Continuous vital sign monitoring - Isansys Patient Status Engine;
+ Machine Learning/AI Algorithm",['patient status engine'],1,"Continuous vital sign monitoring - Isansys Patient Status Engine;
+ Machine Learning/AI Algorithm"
+NCT04607460,DEVICE,"JOGO Digital Therapeutics EMG Biofeedback for Lower Back Pain;
+ JOGO Digital Therapeutics EMG Biofeedback for Persistent Post Mastectomy Pain;
+ JOGO Digital Therapeutics EMG Biofeedback for Migraine",no matches,0,"JOGO Digital Therapeutics EMG Biofeedback for Lower Back Pain;
+ JOGO Digital Therapeutics EMG Biofeedback for Persistent Post Mastectomy Pain;
+ JOGO Digital Therapeutics EMG Biofeedback for Migraine"
+NCT04608097,BEHAVIORAL,"Simple cognitive task intervention;
+ Attention Placebo",no matches,0,"Simple cognitive task intervention;
+ Attention Placebo"
+NCT04653220,OTHER,"Control 1;
+ Control 2;
+ Standard Crokao;
+ Low sugar variant 1;
+ Low sugar variant 2;
+ Low sugar variant 3;
+ Low sugar variant 4;
+ Low sugar variant 5",no matches,0,"Control 1;
+ Control 2;
+ Standard Crokao;
+ Low sugar variant 1;
+ Low sugar variant 2;
+ Low sugar variant 3;
+ Low sugar variant 4;
+ Low sugar variant 5"
+NCT04682223,BEHAVIORAL,"Semantically-focused therapy tasks;
+ Phonologically-focused therapy tasks",no matches,0,"Semantically-focused therapy tasks;
+ Phonologically-focused therapy tasks"
+NCT04717895,DIAGNOSTIC_TEST,"Rocking environment forward (B) followed by a translation environment;
+ Translation environment followed by a rocking environment",no matches,0,"Rocking environment forward (B) followed by a translation environment;
+ Translation environment followed by a rocking environment"
+NCT04732572,"BEHAVIORAL;
+ OTHER;
+ PROCEDURE","Sleep and healthy lifestyle education;
+ Other supportive care;
+ Adenotonsillectomy",no matches,0,"Sleep and healthy lifestyle education;
+ Other supportive care;
+ Adenotonsillectomy"
+NCT04735328,BEHAVIORAL,"LOCI;
+ CT-PTSD;
+ EMDR",no matches,0,"LOCI;
+ CT-PTSD;
+ EMDR"
+NCT04740554,BEHAVIORAL,"Duchenne Muscular Dystrophy group with Deflazacort;
+ Duchenne Muscular Dystrophy group with Prednisone/Predisolone;
+ Duchenne Muscular Dystrophy group without Corticosteroids therapy;
+ Control Group Typically Developing",no matches,0,"Duchenne Muscular Dystrophy group with Deflazacort;
+ Duchenne Muscular Dystrophy group with Prednisone/Predisolone;
+ Duchenne Muscular Dystrophy group without Corticosteroids therapy;
+ Control Group Typically Developing"
+NCT04743050,"DRUG;
+ DIAGNOSTIC_TEST","Fatty Acids, Unsaturated;
+ Diagnostic Tests",no matches,0,"Fatty Acids, Unsaturated;
+ Diagnostic Tests"
+NCT04763746,DEVICE,"Lifelight Data Collect Sub-protocol 1;
+ Lifelight Data Collect Sub-protocol 2;
+ Lifelight Data Collect Sub-protocol 3;
+ Lifelight Data Collect Sub-protocol 4",['lifelight'],1,"Lifelight Data Collect Sub-protocol 1;
+ Lifelight Data Collect Sub-protocol 2;
+ Lifelight Data Collect Sub-protocol 3;
+ Lifelight Data Collect Sub-protocol 4"
+NCT04784585,BEHAVIORAL,"Enhanced Education;
+ Self-Efficacy;
+ Motivation;
+ Self-Regulation;
+ Generic Risk Alert (Active Comparator);
+ Online Behavioral Obesity Treatment",no matches,0,"Enhanced Education;
+ Self-Efficacy;
+ Motivation;
+ Self-Regulation;
+ Generic Risk Alert (Active Comparator);
+ Online Behavioral Obesity Treatment"
+NCT04802291,BEHAVIORAL,HomeStyles-2: Obesity Prevention Program for Families with Children in Middle Childhood,no matches,0,HomeStyles-2: Obesity Prevention Program for Families with Children in Middle Childhood
+NCT04835857,DEVICE,"ViTrack;
+ Oscillometric BP Device;
+ Auscultatory cuff",['vitrack'],1,"ViTrack;
+ Oscillometric BP Device;
+ Auscultatory cuff"
+NCT04841239,OTHER,Herbal topical formulation,no matches,0,Herbal topical formulation
+NCT04845347,DEVICE,"Bright Light Therapy;
+ Dim Light Therapy",no matches,0,"Bright Light Therapy;
+ Dim Light Therapy"
+NCT04853810,OTHER,CUTADIAB questionnaire,no matches,0,CUTADIAB questionnaire
+NCT04854915,BEHAVIORAL,"LOOP + mHealth technology assisted exercise counselling;
+ LOOP Only",['mhealth'],1,"LOOP + mHealth technology assisted exercise counselling;
+ LOOP Only"
+NCT04857788,OTHER,Pandah Application smartphone only,['smartphone'],1,Pandah Application smartphone only
+NCT04870957,"BEHAVIORAL;
+ DEVICE;
+ DRUG","PainGuide;
+ MBSR;
+ PT and exercise;
+ Self -administered acupressure;
+ Duloxetine;
+ Pro-Diary monitor",['pro-diary'],1,"PainGuide;
+ MBSR;
+ PT and exercise;
+ Self -administered acupressure;
+ Duloxetine;
+ Pro-Diary monitor"
+NCT04874415,BEHAVIORAL,"1RLD;
+ 1RLW;
+ 1RGD;
+ 1RGW;
+ 2RLD;
+ 2RLW;
+ 2RGD;
+ 2RGW;
+ 1FLD;
+ 1FLW;
+ 1FGD;
+ 1FGW;
+ 2FLD;
+ 2FLW;
+ 2FGD;
+ 2FGW",no matches,0,"1RLD;
+ 1RLW;
+ 1RGD;
+ 1RGW;
+ 2RLD;
+ 2RLW;
+ 2RGD;
+ 2RGW;
+ 1FLD;
+ 1FLW;
+ 1FGD;
+ 1FGW;
+ 2FLD;
+ 2FLW;
+ 2FGD;
+ 2FGW"
+NCT04877444,"DEVICE;
+ BEHAVIORAL","Duck Duck Punch;
+ Aerobic exercise;
+ Lower extremity stretching",no matches,0,"Duck Duck Punch;
+ Aerobic exercise;
+ Lower extremity stretching"
+NCT04896502,"BEHAVIORAL;
+ OTHER","Standard of Care Education;
+ Interactive Video (IAV) Telemedicine",no matches,0,"Standard of Care Education;
+ Interactive Video (IAV) Telemedicine"
+NCT04914702,DEVICE,"Everion®;
+ CORE®",['everion'],1,"Everion®;
+ CORE®"
+NCT04919759,BEHAVIORAL,"R-Basic;
+ R-Enhanced",no matches,0,"R-Basic;
+ R-Enhanced"
+NCT04922216,BEHAVIORAL,"Core;
+ Standard Diet Monitoring;
+ Simplified Diet Monitoring;
+ Adaptive Activity Goals (Daily);
+ Adaptive Activity Goals (Weekly);
+ Message Decision Points (Fixed);
+ Message Decision Points (Adaptive);
+ Message Decision Rules (Standard);
+ Message Decision Rules (Adaptive);
+ Message Choice (No);
+ Message Choice (Yes)",no matches,0,"Core;
+ Standard Diet Monitoring;
+ Simplified Diet Monitoring;
+ Adaptive Activity Goals (Daily);
+ Adaptive Activity Goals (Weekly);
+ Message Decision Points (Fixed);
+ Message Decision Points (Adaptive);
+ Message Decision Rules (Standard);
+ Message Decision Rules (Adaptive);
+ Message Choice (No);
+ Message Choice (Yes)"
+NCT04946747,"DEVICE;
+ OTHER","Modern microelectrical mechanical systems (MEMS) head-impact sensors;
+ Virtual Reality (VR) Goggle Use with consistent timing of Conditioned Stimulus and Unconditioned Stimulus;
+ Virtual Reality (VR) Goggle Use with inconsistent timing of Conditioned Stimulus and Unconditioned Stimulus",no matches,0,"Modern microelectrical mechanical systems (MEMS) head-impact sensors;
+ Virtual Reality (VR) Goggle Use with consistent timing of Conditioned Stimulus and Unconditioned Stimulus;
+ Virtual Reality (VR) Goggle Use with inconsistent timing of Conditioned Stimulus and Unconditioned Stimulus"
+NCT04953637,OTHER,Physiotherapy,no matches,0,Physiotherapy
+NCT04958174,DEVICE,web-application,no matches,0,web-application
+NCT04958200,BEHAVIORAL,"mhealth-pc for alcohol and pain;
+ Treatment As Usual",['mhealth'],1,"mhealth-pc for alcohol and pain;
+ Treatment As Usual"
+NCT04979702,BEHAVIORAL,"Active Control;
+ mHealth technology assisted exercise counselling",['mhealth'],1,"Active Control;
+ mHealth technology assisted exercise counselling"
+NCT04988464,BEHAVIORAL,"Sleep Scholar;
+ Building Healthy Habits",no matches,0,"Sleep Scholar;
+ Building Healthy Habits"
+NCT04995263,"BEHAVIORAL;
+ OTHER;
+ DEVICE","Sueña component 1: Sleep Hygiene Promotion;
+ Sueña component 2: Periodic Anxiety and Pain Screening;
+ Sueña component 3: Hypnotics and Caffeine Regulation;
+ Sueña component 4: Sleep Masks and Ear Plugs;
+ Sueña component 5: Personalized Psychoeducation;
+ Sueña component 6: Sleep Reports",no matches,0,"Sueña component 1: Sleep Hygiene Promotion;
+ Sueña component 2: Periodic Anxiety and Pain Screening;
+ Sueña component 3: Hypnotics and Caffeine Regulation;
+ Sueña component 4: Sleep Masks and Ear Plugs;
+ Sueña component 5: Personalized Psychoeducation;
+ Sueña component 6: Sleep Reports"
+NCT05012176,"BEHAVIORAL;
+ OTHER","Behavioral Intervention;
+ Quality-of-Life Assessment;
+ Questionnaire Administration",no matches,0,"Behavioral Intervention;
+ Quality-of-Life Assessment;
+ Questionnaire Administration"
+NCT05040841,BEHAVIORAL,"M1/OTR: Immediate outreach to subject due to unsuppressed viral load test result;
+ M2/PRM: Immediate outreach to subject after a missed pharmacy refill;
+ M3/EAM: Immediate outreach to subject after EAM-identified missed doses;
+ S1/Text: Weekly check-in texts;
+ S2/Peer: Enhanced peer group support",no matches,0,"M1/OTR: Immediate outreach to subject due to unsuppressed viral load test result;
+ M2/PRM: Immediate outreach to subject after a missed pharmacy refill;
+ M3/EAM: Immediate outreach to subject after EAM-identified missed doses;
+ S1/Text: Weekly check-in texts;
+ S2/Peer: Enhanced peer group support"
+NCT05044104,DEVICE,Consumer-facing wearable smart watch,"['wearable', 'smart watch']",1,Consumer-facing wearable smart watch
+NCT05044507,DEVICE,BQ 2.0,no matches,0,BQ 2.0
+NCT05051345,"OTHER;
+ BEHAVIORAL","Informational Intervention;
+ Media Intervention;
+ Questionnaire Administration;
+ Smoking Cessation Intervention;
+ Survey Administration;
+ Telephone-Based Intervention;
+ Tobacco Cessation Counseling",no matches,0,"Informational Intervention;
+ Media Intervention;
+ Questionnaire Administration;
+ Smoking Cessation Intervention;
+ Survey Administration;
+ Telephone-Based Intervention;
+ Tobacco Cessation Counseling"
+NCT05069155,BEHAVIORAL,Gamification,no matches,0,Gamification
+NCT05075213,BEHAVIORAL,"contingency management (deposit contract);
+ leaderboard and social feed;
+ smoking cessation resource list",no matches,0,"contingency management (deposit contract);
+ leaderboard and social feed;
+ smoking cessation resource list"
+NCT05080881,DIAGNOSTIC_TEST,"phonocardiographic measurement: InnoVital Systems;
+ phonocardiographic measurement: ThinkLabs StethOne;
+ physiological measurements: BIOPAC;
+ physiological measurements: Masimo Radical-7;
+ physiological measurements: CoVa Monitoring System 2;
+ Thoracic impedance",['cova'],1,"phonocardiographic measurement: InnoVital Systems;
+ phonocardiographic measurement: ThinkLabs StethOne;
+ physiological measurements: BIOPAC;
+ physiological measurements: Masimo Radical-7;
+ physiological measurements: CoVa Monitoring System 2;
+ Thoracic impedance"
+NCT05085210,"DEVICE;
+ BEHAVIORAL","transcranial random noise stimulation (tRNS);
+ Computer Based Visual Training;
+ Sham stimulation;
+ Virtual Reality Based Visual Training",no matches,0,"transcranial random noise stimulation (tRNS);
+ Computer Based Visual Training;
+ Sham stimulation;
+ Virtual Reality Based Visual Training"
+NCT05086731,OTHER,"Best Practice;
+ Informational Intervention;
+ Medical Device Usage and Evaluation;
+ Quality-of-Life Assessment;
+ Survey Administration",no matches,0,"Best Practice;
+ Informational Intervention;
+ Medical Device Usage and Evaluation;
+ Quality-of-Life Assessment;
+ Survey Administration"
+NCT05094063,OTHER,patient education by mobile application,no matches,0,patient education by mobile application
+NCT05106985,DEVICE,ApplTree reminder app,no matches,0,ApplTree reminder app
+NCT05118477,DEVICE,"Ambulatory monitoring system;
+ Active alerting system",no matches,0,"Ambulatory monitoring system;
+ Active alerting system"
+NCT05131360,BEHAVIORAL,"Introduction Only;
+ Purpose Only;
+ Connection Only;
+ Connection and Purpose;
+ Awareness Only;
+ Awareness and Purpose;
+ Awareness, Purpose, and Connection;
+ Awareness and Connection",no matches,0,"Introduction Only;
+ Purpose Only;
+ Connection Only;
+ Connection and Purpose;
+ Awareness Only;
+ Awareness and Purpose;
+ Awareness, Purpose, and Connection;
+ Awareness and Connection"
+NCT05142085,"DIETARY_SUPPLEMENT;
+ OTHER","nano-PSO;
+ placebo",no matches,0,"nano-PSO;
+ placebo"
+NCT05150574,BEHAVIORAL,"Core Health Program;
+ Daily resting HRV;
+ Momentary HRV feedback;
+ Behavioural initiation coaching;
+ Practice with feedback coaching",no matches,0,"Core Health Program;
+ Daily resting HRV;
+ Momentary HRV feedback;
+ Behavioural initiation coaching;
+ Practice with feedback coaching"
+NCT05177172,OTHER,"High beta glucans;
+ Low beta glucans;
+ Low beta glucans + low polar lipids;
+ Polar lipids;
+ Control",['polar'],1,"High beta glucans;
+ Low beta glucans;
+ Low beta glucans + low polar lipids;
+ Polar lipids;
+ Control"
+NCT05178459,DIAGNOSTIC_TEST,Neuropathy measurement,no matches,0,Neuropathy measurement
+NCT05185440,BEHAVIORAL,"GIFTSS Training;
+ Learning Collaborative;
+ Provider Scripts",no matches,0,"GIFTSS Training;
+ Learning Collaborative;
+ Provider Scripts"
+NCT05196672,BEHAVIORAL,Virtual reality and eye mask,no matches,0,Virtual reality and eye mask
+NCT05205252,DRUG,"Tazemetostat;
+ Tafasitamab;
+ Lenalidomide;
+ Acalabrutinib;
+ Daratumumab (Intravenously);
+ Mosunetuzumab;
+ Daratumumab (Subcutaneously);
+ Hyaluronidase-Fihj;
+ Pomalidomide;
+ Dexamethasone 20mg",no matches,0,"Tazemetostat;
+ Tafasitamab;
+ Lenalidomide;
+ Acalabrutinib;
+ Daratumumab (Intravenously);
+ Mosunetuzumab;
+ Daratumumab (Subcutaneously);
+ Hyaluronidase-Fihj;
+ Pomalidomide;
+ Dexamethasone 20mg"
+NCT05233800,BEHAVIORAL,"Faster Asleep Smart Speaker Program;
+ Faster Asleep Website",no matches,0,"Faster Asleep Smart Speaker Program;
+ Faster Asleep Website"
+NCT05235321,DEVICE,"Standard GAT;
+ Fixed force GAT;
+ Upright applanating prototype;
+ Supine Applanating Prototype",no matches,0,"Standard GAT;
+ Fixed force GAT;
+ Upright applanating prototype;
+ Supine Applanating Prototype"
+NCT05248126,OTHER,"Standard patient education;
+ Chatbot patient education",no matches,0,"Standard patient education;
+ Chatbot patient education"
+NCT05258292,"DEVICE;
+ DRUG;
+ OTHER","Continuous glucose monitoring;
+ Insulin;
+ Premenstrual symptoms;
+ Ovulation kits;
+ Fitbit Inspire 2;
+ Keenoa;
+ Menstrual cycle","['inspire 2', 'fitbit']",1,"Continuous glucose monitoring;
+ Insulin;
+ Premenstrual symptoms;
+ Ovulation kits;
+ Fitbit Inspire 2;
+ Keenoa;
+ Menstrual cycle"
+NCT05258461,OTHER,"use of a smartphone app for adverse event management;
+ conventional adverse event management",['smartphone'],1,"use of a smartphone app for adverse event management;
+ conventional adverse event management"
+NCT05274529,"BEHAVIORAL;
+ OTHER","Psychological health and flexibility;
+ Work ability;
+ Sleep and recovery;
+ Healthy lifestyle;
+ No coaching",no matches,0,"Psychological health and flexibility;
+ Work ability;
+ Sleep and recovery;
+ Healthy lifestyle;
+ No coaching"
+NCT05280145,"DEVICE;
+ PROCEDURE","EchOpen ultra-portable ultrasound device;
+ Ultrasound device routinely used in the department;
+ Ultrasound examination by an independent referent radiologist",no matches,0,"EchOpen ultra-portable ultrasound device;
+ Ultrasound device routinely used in the department;
+ Ultrasound examination by an independent referent radiologist"
+NCT05292287,DEVICE,Polar Ignite Wearable Activity Monitor,"['wearable', 'polar']",1,Polar Ignite Wearable Activity Monitor
+NCT05295719,"DIETARY_SUPPLEMENT;
+ BEHAVIORAL","Omega-3 polyunsaturated fatty acid;
+ High-Intensity Interval Training;
+ Safflower oil;
+ Flexibility training",no matches,0,"Omega-3 polyunsaturated fatty acid;
+ High-Intensity Interval Training;
+ Safflower oil;
+ Flexibility training"
+NCT05296551,OTHER,"Motor Task;
+ Cognitive-motor dual-task",no matches,0,"Motor Task;
+ Cognitive-motor dual-task"
+NCT05297383,"DIETARY_SUPPLEMENT;
+ BEHAVIORAL","Omega-3 Polyunsaturated Fatty Acid.;
+ Safflower Oil;
+ High-Intensity Interval Training;
+ Flexibility Training",no matches,0,"Omega-3 Polyunsaturated Fatty Acid.;
+ Safflower Oil;
+ High-Intensity Interval Training;
+ Flexibility Training"
+NCT05300620,DEVICE,"Custom Foot Orthotics EVA;
+ Original Liner;
+ Custom Foot Orthotics PU;
+ Custom Hybrid Foot Orthotics",no matches,0,"Custom Foot Orthotics EVA;
+ Original Liner;
+ Custom Foot Orthotics PU;
+ Custom Hybrid Foot Orthotics"
+NCT05302102,OTHER,"Unilateral plyometric training;
+ Bilateral plyometric training;
+ Standard physical therapy",no matches,0,"Unilateral plyometric training;
+ Bilateral plyometric training;
+ Standard physical therapy"
+NCT05307653,PROCEDURE,"Penile block;
+ Erector spinea plain block;
+ Caudal block",no matches,0,"Penile block;
+ Erector spinea plain block;
+ Caudal block"
+NCT05343663,BEHAVIORAL,Education,no matches,0,Education
+NCT05358132,DEVICE,Pneumowave Device placement and data capture,no matches,0,Pneumowave Device placement and data capture
+NCT05372848,DIAGNOSTIC_TEST,"Manual toothbrush;
+ Electric toothbrush",no matches,0,"Manual toothbrush;
+ Electric toothbrush"
+NCT05373992,BEHAVIORAL,"Screen Time Restriction (ST-Restricted);
+ Aerobic Exercise (AE);
+ Screen-time restricted plus aerobic exercise (STR+AE);
+ Stretching Only",no matches,0,"Screen Time Restriction (ST-Restricted);
+ Aerobic Exercise (AE);
+ Screen-time restricted plus aerobic exercise (STR+AE);
+ Stretching Only"
+NCT05375162,BEHAVIORAL,"Core Intervention;
+ E-Coach;
+ General Mindfulness Training;
+ MVPA-Specific Mindfulness Training;
+ Buddy",no matches,0,"Core Intervention;
+ E-Coach;
+ General Mindfulness Training;
+ MVPA-Specific Mindfulness Training;
+ Buddy"
+NCT05382039,DEVICE,Transcutaneous Electrical Nerve Stimulation,no matches,0,Transcutaneous Electrical Nerve Stimulation
+NCT05389826,DEVICE,mHealth App,['mhealth'],1,mHealth App
+NCT05409664,BEHAVIORAL,"Physical activity adoption;
+ Self monitoring",no matches,0,"Physical activity adoption;
+ Self monitoring"
+NCT05423275,DEVICE,"Negative ion therapy;
+ Light therapy",no matches,0,"Negative ion therapy;
+ Light therapy"
+NCT05425641,BEHAVIORAL,"Goal Setting;
+ Action Planning;
+ Self-Monitoring of Behavior;
+ Feedback on Behavior",no matches,0,"Goal Setting;
+ Action Planning;
+ Self-Monitoring of Behavior;
+ Feedback on Behavior"
+NCT05431296,DEVICE,Dexcom ONE Continuous Glucose Monitoring System,['dexcom'],1,Dexcom ONE Continuous Glucose Monitoring System
+NCT05440825,"DEVICE;
+ OTHER","VRelax;
+ Relaxation exercises",no matches,0,"VRelax;
+ Relaxation exercises"
+NCT05450614,"OTHER;
+ BEHAVIORAL","Thrive app;
+ TCCG",no matches,0,"Thrive app;
+ TCCG"
+NCT05450822,DRUG,"Levetiracetam;
+ Levetiracetam Tablets;
+ Lamotrigine tablet",no matches,0,"Levetiracetam;
+ Levetiracetam Tablets;
+ Lamotrigine tablet"
+NCT05457790,BEHAVIORAL,"ACT Intervention;
+ Waitlist",no matches,0,"ACT Intervention;
+ Waitlist"
+NCT05460143,OTHER,"Near-infrared Spectroscopy scan;
+ Magnetic Resonance Imaging scan",no matches,0,"Near-infrared Spectroscopy scan;
+ Magnetic Resonance Imaging scan"
+NCT05478941,"COMBINATION_PRODUCT;
+ BEHAVIORAL","Progressive Muscular Relaxation via Zoom, and Exposure to a Virtual Reality scenarios deployed by an Head mounted tool (Oculus Quest 2).;
+ Progressive Muscular Relaxation via Audio-track, and Exposure to a Virtual Reality scenarios deployed by an Head mounted tool (Oculus Quest 2).;
+ Progressive Muscular Relaxation via Zoom, and Exposure to a Guided Imagery Exposure.",['quest 2'],1,"Progressive Muscular Relaxation via Zoom, and Exposure to a Virtual Reality scenarios deployed by an Head mounted tool (Oculus Quest 2).;
+ Progressive Muscular Relaxation via Audio-track, and Exposure to a Virtual Reality scenarios deployed by an Head mounted tool (Oculus Quest 2).;
+ Progressive Muscular Relaxation via Zoom, and Exposure to a Guided Imagery Exposure."
+NCT05492955,BEHAVIORAL,"Community Health Worker Care Model;
+ Enhanced Community Health Worker-based with Mobile Health Blood Pressure Monitoring Model;
+ Standard of Care Model",no matches,0,"Community Health Worker Care Model;
+ Enhanced Community Health Worker-based with Mobile Health Blood Pressure Monitoring Model;
+ Standard of Care Model"
+NCT05511337,OTHER,"Caloric restriction and control oxalate and citrate foods;
+ Caloric restriction;
+ Real-life intervention with control oxalate and citrate foods",no matches,0,"Caloric restriction and control oxalate and citrate foods;
+ Caloric restriction;
+ Real-life intervention with control oxalate and citrate foods"
+NCT05512858,BEHAVIORAL,sensory room,no matches,0,sensory room
+NCT05531825,DEVICE,A device for detecting arteriovenous fistula vascular function,no matches,0,A device for detecting arteriovenous fistula vascular function
+NCT05533359,BEHAVIORAL,"Text-Messaging (TM);
+ Conversational Agent (CA);
+ Patient Navigation (PN)",no matches,0,"Text-Messaging (TM);
+ Conversational Agent (CA);
+ Patient Navigation (PN)"
+NCT05539040,"PROCEDURE;
+ DIAGNOSTIC_TEST;
+ OTHER","Right Atrial ganglionated plexus ablation;
+ Holter Monitor;
+ Pulmonary vein isolation;
+ Right cavo-tricuspid and left roof linear ablation;
+ Personal ECG recordings;
+ Quality of life questionnaire",['holter monitor'],1,"Right Atrial ganglionated plexus ablation;
+ Holter Monitor;
+ Pulmonary vein isolation;
+ Right cavo-tricuspid and left roof linear ablation;
+ Personal ECG recordings;
+ Quality of life questionnaire"
+NCT05540860,DRUG,"Sevasemten Dose 1;
+ Sevasemten Dose 2;
+ Sevasemten Dose 3;
+ Sevasemten Dose 4;
+ Sevasemten Dose 5;
+ Placebo",no matches,0,"Sevasemten Dose 1;
+ Sevasemten Dose 2;
+ Sevasemten Dose 3;
+ Sevasemten Dose 4;
+ Sevasemten Dose 5;
+ Placebo"
+NCT05549141,OTHER,"treadmill gait training with gait facilitators;
+ treadmill gait training not-associated with gait facilitators",no matches,0,"treadmill gait training with gait facilitators;
+ treadmill gait training not-associated with gait facilitators"
+NCT05554601,BEHAVIORAL,"gamification with collaboration;
+ gamification with competition",no matches,0,"gamification with collaboration;
+ gamification with competition"
+NCT05556746,DRUG,"Bedaquiline;
+ Clofazimine;
+ Pyrazinamide;
+ Delamanid;
+ Rifampin;
+ Isoniazid;
+ Ethambutol",no matches,0,"Bedaquiline;
+ Clofazimine;
+ Pyrazinamide;
+ Delamanid;
+ Rifampin;
+ Isoniazid;
+ Ethambutol"
+NCT05562401,"DEVICE;
+ DRUG","Coconut Water;
+ Oral Electrolytes",no matches,0,"Coconut Water;
+ Oral Electrolytes"
+NCT05579392,DEVICE,"Bright Light Therapy;
+ Placebo Retimer Device",no matches,0,"Bright Light Therapy;
+ Placebo Retimer Device"
+NCT05582889,BEHAVIORAL,Fitbit Intervention,['fitbit'],1,Fitbit Intervention
+NCT05584410,"OTHER;
+ BEHAVIORAL","Patient information;
+ Smart phone application based exercises;
+ Web based exercises;
+ Group based information;
+ Supervised rehabilitation;
+ Self-monitoring;
+ Motivational notifications;
+ Home based rehabilitation",['smart phone'],1,"Patient information;
+ Smart phone application based exercises;
+ Web based exercises;
+ Group based information;
+ Supervised rehabilitation;
+ Self-monitoring;
+ Motivational notifications;
+ Home based rehabilitation"
+NCT05595629,BEHAVIORAL,"App-based remote blood pressure monitoring;
+ text-message based remote blood pressure monitoring",no matches,0,"App-based remote blood pressure monitoring;
+ text-message based remote blood pressure monitoring"
+NCT05596227,"DRUG;
+ OTHER","Propofol;
+ Fentanyl;
+ Rocuronium;
+ Sevoflurane;
+ Erector spinae plane block;
+ Thoracolumbar interfascial plane block",no matches,0,"Propofol;
+ Fentanyl;
+ Rocuronium;
+ Sevoflurane;
+ Erector spinae plane block;
+ Thoracolumbar interfascial plane block"
+NCT05614570,"DEVICE;
+ OTHER","SSVEP Device;
+ SCAT5",no matches,0,"SSVEP Device;
+ SCAT5"
+NCT05627726,"DEVICE;
+ OTHER","PelviSense-assisted pelvic floor muscle training group;
+ Active comparator",no matches,0,"PelviSense-assisted pelvic floor muscle training group;
+ Active comparator"
+NCT05633784,OTHER,"Teleassistance;
+ Teleconsultation;
+ Telerehabilitation;
+ Telemonitoring;
+ mHealth;
+ telepsycology;
+ Quality of life;
+ Biochemistry evaluation;
+ Clinical evaluation;
+ State of health of the patient",['mhealth'],1,"Teleassistance;
+ Teleconsultation;
+ Telerehabilitation;
+ Telemonitoring;
+ mHealth;
+ telepsycology;
+ Quality of life;
+ Biochemistry evaluation;
+ Clinical evaluation;
+ State of health of the patient"
+NCT05634421,OTHER,E-learning,no matches,0,E-learning
+NCT05640661,DEVICE,Oculus Quest II,no matches,0,Oculus Quest II
+NCT05648721,OTHER,"Datos mobile health application;
+ Regular follow-up",no matches,0,"Datos mobile health application;
+ Regular follow-up"
+NCT05657938,"DEVICE;
+ OTHER","Wearable Device;
+ Duchenne Video Assessment (DVA)","['duchenne video assessment', 'wearable']",1,"Wearable Device;
+ Duchenne Video Assessment (DVA)"
+NCT05668000,OTHER,"Bluetooth-connected monitoring devices and a feedback system;
+ Mobile application",no matches,0,"Bluetooth-connected monitoring devices and a feedback system;
+ Mobile application"
+NCT05672134,"DIAGNOSTIC_TEST;
+ DRUG","Iohexol measurement;
+ Geranylgeranylacetone (GGA);
+ Echocardiography;
+ 6-minute walking distance test;
+ EndoPAT;
+ Para-amino Hippuric Acid test;
+ Electrocardiogram",['endopat'],1,"Iohexol measurement;
+ Geranylgeranylacetone (GGA);
+ Echocardiography;
+ 6-minute walking distance test;
+ EndoPAT;
+ Para-amino Hippuric Acid test;
+ Electrocardiogram"
+NCT05699031,"DEVICE;
+ OTHER","APP;
+ PHYSICAL THERAPY",no matches,0,"APP;
+ PHYSICAL THERAPY"
+NCT05715268,"DEVICE;
+ OTHER","WeB;
+ Standard pelvic floor physical therapy",no matches,0,"WeB;
+ Standard pelvic floor physical therapy"
+NCT05722080,OTHER,"Eyesi simulator;
+ Sleep deprivation",no matches,0,"Eyesi simulator;
+ Sleep deprivation"
+NCT05726461,DEVICE,"AndroidAPS-rt-CGM;;
+ sensor augmented pump(SAP);",no matches,0,"AndroidAPS-rt-CGM;;
+ sensor augmented pump(SAP);"
+NCT05753644,"PROCEDURE;
+ DRUG","stellate ganglion blocks;
+ Ropivacaine;
+ Sham treatment",no matches,0,"stellate ganglion blocks;
+ Ropivacaine;
+ Sham treatment"
+NCT05774197,BEHAVIORAL,Cognitive Behavioral Therapy for pain,no matches,0,Cognitive Behavioral Therapy for pain
+NCT05785832,DEVICE,"t:slim X2 insulin pump with Control-IQ technology 1.5 and Dexcom G6 CGM;
+ Standard Therapy plus continuous glucose monitoring (CGM)","['t:slim', 'g6 cgm', 'dexcom']",1,"t:slim X2 insulin pump with Control-IQ technology 1.5 and Dexcom G6 CGM;
+ Standard Therapy plus continuous glucose monitoring (CGM)"
+NCT05791383,DEVICE,transcutaneous auricular neurostimulation,no matches,0,transcutaneous auricular neurostimulation
+NCT05799066,DIAGNOSTIC_TEST,"Swinging Light test;
+ Virtual Reality Head-Mounted Display (VR HMD)",no matches,0,"Swinging Light test;
+ Virtual Reality Head-Mounted Display (VR HMD)"
+NCT05799781,DEVICE,"MPC closed-loop system;
+ t:slim X2 pump with Dexcom G6 CGM and Control IQ","['t:slim', 'g6 cgm', 'dexcom']",1,"MPC closed-loop system;
+ t:slim X2 pump with Dexcom G6 CGM and Control IQ"
+NCT05804344,DEVICE,"Anodal speech motor tDCS;
+ Cathodal speech motor tDCS;
+ Anodal IFG tDCS;
+ Cathodal IFG tDCS;
+ Sham tDCS",no matches,0,"Anodal speech motor tDCS;
+ Cathodal speech motor tDCS;
+ Anodal IFG tDCS;
+ Cathodal IFG tDCS;
+ Sham tDCS"
+NCT05813717,DRUG,"BMS-986325;
+ Placebo",no matches,0,"BMS-986325;
+ Placebo"
+NCT05826873,BEHAVIORAL,Discharge antibiotic stewardship intervention,no matches,0,Discharge antibiotic stewardship intervention
+NCT05827861,BEHAVIORAL,"HeartAge;
+ HOPE-CVD Mobile App;
+ Genetic Risk Score",['mobile app'],1,"HeartAge;
+ HOPE-CVD Mobile App;
+ Genetic Risk Score"
+NCT05827991,"DEVICE;
+ DRUG","1565nm Non-ablative Fractional Laser;
+ 5% minoxidil external use;
+ 1565nm Non-ablative Fractional Laser combined with 5% minoxidil",no matches,0,"1565nm Non-ablative Fractional Laser;
+ 5% minoxidil external use;
+ 1565nm Non-ablative Fractional Laser combined with 5% minoxidil"
+NCT05831800,DEVICE,Wearable bioimpedance sensor,['wearable'],1,Wearable bioimpedance sensor
+NCT05833568,DEVICE,"Active Transcranial alternative current stimulation;
+ SHAM Transcranial alternative current stimulation",no matches,0,"Active Transcranial alternative current stimulation;
+ SHAM Transcranial alternative current stimulation"
+NCT05835856,"DEVICE;
+ OTHER","Virtual coach with NAO robot;
+ Virtual coach with Google Nest Hub (2e generation) group;
+ Virtual coach with Gatebox device;
+ virtual coach with CelesTE robot;
+ booklet",['nest hub'],1,"Virtual coach with NAO robot;
+ Virtual coach with Google Nest Hub (2e generation) group;
+ Virtual coach with Gatebox device;
+ virtual coach with CelesTE robot;
+ booklet"
+NCT05856955,BEHAVIORAL,"mHealth Coaching Intervention;
+ Enhanced Usual Care",['mhealth'],1,"mHealth Coaching Intervention;
+ Enhanced Usual Care"
+NCT05887401,BEHAVIORAL,"Core;
+ Simplified Nutrition Monitoring (Green);
+ Behavioral: Simplified Nutrition Monitoring (Red);
+ Nutrition Goals (Yes);
+ Nutrition Goals (No);
+ Supportive Text Messages (Yes);
+ Supportive Text Messages (No);
+ Lesson Delivery (Once);
+ Lesson Delivery (Weekly)",no matches,0,"Core;
+ Simplified Nutrition Monitoring (Green);
+ Behavioral: Simplified Nutrition Monitoring (Red);
+ Nutrition Goals (Yes);
+ Nutrition Goals (No);
+ Supportive Text Messages (Yes);
+ Supportive Text Messages (No);
+ Lesson Delivery (Once);
+ Lesson Delivery (Weekly)"
+NCT05895435,"DEVICE;
+ OTHER","radiofrequancy;
+ aerobic exercise",no matches,0,"radiofrequancy;
+ aerobic exercise"
+NCT05897242,"BEHAVIORAL;
+ OTHER","Smartphone app;
+ Text Message;
+ Survey Administration",['smartphone'],1,"Smartphone app;
+ Text Message;
+ Survey Administration"
+NCT05898100,"DEVICE;
+ BEHAVIORAL","Virtual Reality Distraction;
+ Dental Clinic's Standard Treatment",no matches,0,"Virtual Reality Distraction;
+ Dental Clinic's Standard Treatment"
+NCT05904743,BIOLOGICAL,"Afrezza;
+ insulin degludec;
+ Rapid-acting Insulin Analog;
+ Basal Insulin",no matches,0,"Afrezza;
+ insulin degludec;
+ Rapid-acting Insulin Analog;
+ Basal Insulin"
+NCT05908357,OTHER,"Exergaming;
+ Booklet",no matches,0,"Exergaming;
+ Booklet"
+NCT05913258,DEVICE,"Er:YAG laser system (Doctor smile, Pluser, Italy);
+ Master Torque high/low-speed air rotor handpiece (KaVo Dental, Charlotte, North Carolina, USA)",no matches,0,"Er:YAG laser system (Doctor smile, Pluser, Italy);
+ Master Torque high/low-speed air rotor handpiece (KaVo Dental, Charlotte, North Carolina, USA)"
+NCT05922865,"DEVICE;
+ BEHAVIORAL","KNEESUP smart knee assistive device + KNEESUP care APP;
+ KNEESUP care APP;
+ Healthy consulation",no matches,0,"KNEESUP smart knee assistive device + KNEESUP care APP;
+ KNEESUP care APP;
+ Healthy consulation"
+NCT05929469,BEHAVIORAL,"App;
+ Fully Automated Kick-Off;
+ Human-Enhanced Kick-Off;
+ Check-In;
+ Counseling",no matches,0,"App;
+ Fully Automated Kick-Off;
+ Human-Enhanced Kick-Off;
+ Check-In;
+ Counseling"
+NCT05930431,BEHAVIORAL,"Physical activity variety intervention;
+ Physical activity consistency comparison condition",no matches,0,"Physical activity variety intervention;
+ Physical activity consistency comparison condition"
+NCT05930483,"BEHAVIORAL;
+ PROCEDURE;
+ OTHER","Behavioral Dietary Intervention;
+ Behavioral Intervention;
+ Biospecimen Collection;
+ Dietary Intervention;
+ Educational Intervention;
+ Exercise Intervention;
+ Health Promotion and Education;
+ Internet-Based Intervention;
+ Interview;
+ Lifestyle Counseling;
+ Medical Device Usage and Evaluation;
+ Nutritional Intervention;
+ Questionnaire Administration;
+ Telephone-Based Intervention",no matches,0,"Behavioral Dietary Intervention;
+ Behavioral Intervention;
+ Biospecimen Collection;
+ Dietary Intervention;
+ Educational Intervention;
+ Exercise Intervention;
+ Health Promotion and Education;
+ Internet-Based Intervention;
+ Interview;
+ Lifestyle Counseling;
+ Medical Device Usage and Evaluation;
+ Nutritional Intervention;
+ Questionnaire Administration;
+ Telephone-Based Intervention"
+NCT05931874,BEHAVIORAL,"Core Intervention;
+ E-Coach;
+ Buddy;
+ General Mindfulness Training;
+ MVPA-Specific Mindfulness Training",no matches,0,"Core Intervention;
+ E-Coach;
+ Buddy;
+ General Mindfulness Training;
+ MVPA-Specific Mindfulness Training"
+NCT05950932,"DIETARY_SUPPLEMENT;
+ OTHER","Melissa phytosome;
+ Placebo",no matches,0,"Melissa phytosome;
+ Placebo"
+NCT05961176,DEVICE,Skiin pediatric band and Skiin biometric pod,no matches,0,Skiin pediatric band and Skiin biometric pod
+NCT05988762,OTHER,"Supramaximal Walkout;
+ Submaximal Walkout",no matches,0,"Supramaximal Walkout;
+ Submaximal Walkout"
+NCT05999448,BEHAVIORAL,"Acceptance and Commitment Therapy (ACT);
+ Culturally Informed Cognitive Behavioral Therapy (CICBT), Individual;
+ Culturally Informed Cognitive Behavioral Therapy (CICBT), Group;
+ Dialectical Behavioral Therapy (DBT);
+ Durand Sleep Intervention;
+ RUBI Intervention;
+ Naturalistic Communication Intervention (NCI);
+ Self-Guided Resources;
+ Participation Enhancement Intervention (PEI)",no matches,0,"Acceptance and Commitment Therapy (ACT);
+ Culturally Informed Cognitive Behavioral Therapy (CICBT), Individual;
+ Culturally Informed Cognitive Behavioral Therapy (CICBT), Group;
+ Dialectical Behavioral Therapy (DBT);
+ Durand Sleep Intervention;
+ RUBI Intervention;
+ Naturalistic Communication Intervention (NCI);
+ Self-Guided Resources;
+ Participation Enhancement Intervention (PEI)"
+NCT06011564,DEVICE,Reminder function on Android computer tablet,['android'],1,Reminder function on Android computer tablet
+NCT06063174,BEHAVIORAL,"Education Program;
+ Think Well Program;
+ Be Well Program;
+ Eat Well Program;
+ Sleep Well Program;
+ Move Well Program",no matches,0,"Education Program;
+ Think Well Program;
+ Be Well Program;
+ Eat Well Program;
+ Sleep Well Program;
+ Move Well Program"
+NCT06073743,OTHER,"Conventional Physiotherapy;
+ Video Game Based Exercise Training",no matches,0,"Conventional Physiotherapy;
+ Video Game Based Exercise Training"
+NCT06075511,"DIAGNOSTIC_TEST;
+ BEHAVIORAL","6 minutes walk distance;
+ Activity Monitor;
+ Continuous Glucose Monitor;
+ Blood Pressure Monitoring;
+ Body Composition Scan;
+ Mixed meal testing;
+ Quality of Life",no matches,0,"6 minutes walk distance;
+ Activity Monitor;
+ Continuous Glucose Monitor;
+ Blood Pressure Monitoring;
+ Body Composition Scan;
+ Mixed meal testing;
+ Quality of Life"
+NCT06077812,BEHAVIORAL,"RELAXaHEAD Smartphone App;
+ In-Person Training;
+ Virtual Training",['smartphone'],1,"RELAXaHEAD Smartphone App;
+ In-Person Training;
+ Virtual Training"
+NCT06082752,PROCEDURE,Massage session,no matches,0,Massage session
+NCT06098573,BEHAVIORAL,"High Alert;
+ Information condition;
+ No contact",no matches,0,"High Alert;
+ Information condition;
+ No contact"
+NCT06099444,DEVICE,"Conventional High Intensity Gait Training;
+ Standard FES to the Tibialis Anterior (TA);
+ Synergy-Based Multichannel FES (MFES);
+ Muscle Synergy Visual Biofeedback",no matches,0,"Conventional High Intensity Gait Training;
+ Standard FES to the Tibialis Anterior (TA);
+ Synergy-Based Multichannel FES (MFES);
+ Muscle Synergy Visual Biofeedback"
+NCT06102460,DIETARY_SUPPLEMENT,"Casein protein;
+ a-lactalbumin protein;
+ Carbohydrate;
+ Placebo",no matches,0,"Casein protein;
+ a-lactalbumin protein;
+ Carbohydrate;
+ Placebo"
+NCT06114485,BEHAVIORAL,"VIPA Treatment Program;
+ Alexa with Guidebook",['alexa'],1,"VIPA Treatment Program;
+ Alexa with Guidebook"
+NCT06120595,"DRUG;
+ BEHAVIORAL;
+ OTHER","REBECCA-assisted intervention 1;
+ REBECCA-assisted intervention 2;
+ Standard follow-up",no matches,0,"REBECCA-assisted intervention 1;
+ REBECCA-assisted intervention 2;
+ Standard follow-up"
+NCT06123572,OTHER,"Placebo;
+ Anti-Ageing and Skin Brightening Gel",no matches,0,"Placebo;
+ Anti-Ageing and Skin Brightening Gel"
+NCT06156436,DEVICE,ResAppDx v.20,no matches,0,ResAppDx v.20
+NCT06157840,DEVICE,"mHealth application and sleep health education;
+ Simplified mHealth application and sleep health education",['mhealth'],1,"mHealth application and sleep health education;
+ Simplified mHealth application and sleep health education"
+NCT06160687,PROCEDURE,"PSV mode during NIV;
+ ASV intellisync",no matches,0,"PSV mode during NIV;
+ ASV intellisync"
+NCT06167525,DEVICE,Real-time feedback through the device. Bio-feedback signals will be given once deviated from a neutral posture for >1 minute. Response of surgeons to bio-feedback signals will be recorded,no matches,0,Real-time feedback through the device. Bio-feedback signals will be given once deviated from a neutral posture for >1 minute. Response of surgeons to bio-feedback signals will be recorded
+NCT06171893,BEHAVIORAL,Wavy stress application,no matches,0,Wavy stress application
+NCT06185049,BEHAVIORAL,"PROCARE+ (Core intervention with add-on modules) and two booster sessions.;
+ PROCARE+ (Core intervention with add-on modules) and one booster session;
+ PROCARE+ (Core intervention with add-on modules) without booster sessions.",no matches,0,"PROCARE+ (Core intervention with add-on modules) and two booster sessions.;
+ PROCARE+ (Core intervention with add-on modules) and one booster session;
+ PROCARE+ (Core intervention with add-on modules) without booster sessions."
+NCT06203795,"OTHER;
+ DEVICE","Anticoagulation dosing;
+ Blood sampling;
+ Duration of the dialysis session;
+ Choice of the hemodialyzer",no matches,0,"Anticoagulation dosing;
+ Blood sampling;
+ Duration of the dialysis session;
+ Choice of the hemodialyzer"
+NCT06207084,BEHAVIORAL,"asynchronous content only;
+ Asynchronous content and health coaching and no live training;
+ asynchronous content only and 1 on 1 live training;
+ asynchronous content and health coaching and 1 on 1 training;
+ asynchronous content and group training;
+ Asynchronous content and health coaching and group training",no matches,0,"asynchronous content only;
+ Asynchronous content and health coaching and no live training;
+ asynchronous content only and 1 on 1 live training;
+ asynchronous content and health coaching and 1 on 1 training;
+ asynchronous content and group training;
+ Asynchronous content and health coaching and group training"
+NCT06224751,DIAGNOSTIC_TEST,"Near logMAR letter acuity;
+ Near LogMAR word acuity;
+ Red Green Stereoacuity;
+ Auckland Optotype/Auckland Vanishing Optotypes;
+ Vanishing Optotype Sloan Letters;
+ Letter Contrast Sensitivity;
+ Low Contrast Letter Acuity",no matches,0,"Near logMAR letter acuity;
+ Near LogMAR word acuity;
+ Red Green Stereoacuity;
+ Auckland Optotype/Auckland Vanishing Optotypes;
+ Vanishing Optotype Sloan Letters;
+ Letter Contrast Sensitivity;
+ Low Contrast Letter Acuity"
+NCT06234475,BEHAVIORAL,"Mobile health support;
+ Financial incentive;
+ Combine intervention;
+ Control group",no matches,0,"Mobile health support;
+ Financial incentive;
+ Combine intervention;
+ Control group"
+NCT06236256,"DEVICE;
+ OTHER","MiniMed™ 780G Advanced Hybrid Closed Loop (AHCL) system;
+ MDI/CSII",['minimed'],1,"MiniMed™ 780G Advanced Hybrid Closed Loop (AHCL) system;
+ MDI/CSII"
+NCT06257238,"DEVICE;
+ BEHAVIORAL","Fully immersive Head-Mounted Display Virtual Reality;
+ Traditional Physical Therapy Program",no matches,0,"Fully immersive Head-Mounted Display Virtual Reality;
+ Traditional Physical Therapy Program"
+NCT06279936,OTHER,"Neuropsychological battery;
+ Surveys and symptom severity questionnaires;
+ Blood withdrawal;
+ Saliva swabs",no matches,0,"Neuropsychological battery;
+ Surveys and symptom severity questionnaires;
+ Blood withdrawal;
+ Saliva swabs"
+NCT06286904,DEVICE,Skiin Garment system,no matches,0,Skiin Garment system
+NCT06293508,BEHAVIORAL,"Standard Health Communication Intervention;
+ Behavioural Change Health Communication Intervention",no matches,0,"Standard Health Communication Intervention;
+ Behavioural Change Health Communication Intervention"
+NCT06296693,DEVICE,Pocket-size lung ultrasound for etiological definition of pneumonia and surveillance of complications in children hospitalized,no matches,0,Pocket-size lung ultrasound for etiological definition of pneumonia and surveillance of complications in children hospitalized
+NCT06312800,DRUG,"Acamprosate;
+ Placebo;
+ Methazolamide",no matches,0,"Acamprosate;
+ Placebo;
+ Methazolamide"
+NCT06327581,DRUG,"Lactic Acid;
+ vit D;
+ Triamcinolone Acetonide;
+ Saline",no matches,0,"Lactic Acid;
+ vit D;
+ Triamcinolone Acetonide;
+ Saline"
+NCT06335381,"OTHER;
+ BEHAVIORAL","Northwell Pregnancy & Peds Chats;
+ Prenatal Telehealth Visits;
+ Postpartum Telehealth Visits;
+ Home Blood Pressure Monitor;
+ Fitbit",['fitbit'],1,"Northwell Pregnancy & Peds Chats;
+ Prenatal Telehealth Visits;
+ Postpartum Telehealth Visits;
+ Home Blood Pressure Monitor;
+ Fitbit"
+NCT06340672,OTHER,"Augmented Reality Enhanced Preoperative Counseling;
+ Standard preoperative counseling",no matches,0,"Augmented Reality Enhanced Preoperative Counseling;
+ Standard preoperative counseling"
+NCT06344988,"OTHER;
+ DEVICE","The exercise program;
+ Online education presentation;
+ Smart band",no matches,0,"The exercise program;
+ Online education presentation;
+ Smart band"
+NCT06354855,OTHER,"Group is doing breathing exercises while watching videos;
+ Medium pace walking group",no matches,0,"Group is doing breathing exercises while watching videos;
+ Medium pace walking group"
+NCT06397651,BEHAVIORAL,"Complement Theory's Live 1:1 Exercise Coaching and Personalized Digital Application;
+ Digital application with expert guidelines on lifestyle modification",no matches,0,"Complement Theory's Live 1:1 Exercise Coaching and Personalized Digital Application;
+ Digital application with expert guidelines on lifestyle modification"
+NCT06405451,OTHER,"Conventional treatment;
+ Experimental treatment",no matches,0,"Conventional treatment;
+ Experimental treatment"
+NCT06409260,OTHER,"Acceleromyography (AMG);
+ Electromyography (EMG)",no matches,0,"Acceleromyography (AMG);
+ Electromyography (EMG)"
+NCT06410209,OTHER,"Goal Setting;
+ Interview;
+ Media Intervention;
+ Medical Device Usage and Evaluation;
+ Questionnaire Administration;
+ Reward;
+ Text Message-Based Navigation Intervention",no matches,0,"Goal Setting;
+ Interview;
+ Media Intervention;
+ Medical Device Usage and Evaluation;
+ Questionnaire Administration;
+ Reward;
+ Text Message-Based Navigation Intervention"
+NCT06413940,BEHAVIORAL,"Myofunctional Therapy;
+ Inspiratory Muscle Training;
+ Aerobic Exercise",no matches,0,"Myofunctional Therapy;
+ Inspiratory Muscle Training;
+ Aerobic Exercise"
+NCT06415656,DEVICE,"TempTraq;
+ VitalTraq",['temptraq'],1,"TempTraq;
+ VitalTraq"
+NCT06416150,BEHAVIORAL,"Stage 1 SOC;
+ Stage 1 HERS;
+ Stage 2 HERS;
+ Stage 2 HERS+HC;
+ Stage 3 SOC;
+ Stage 3 HERS;
+ Stage 3 HERS+HC;
+ Stage 4 HERS;
+ Stage 4 HERS+HC",no matches,0,"Stage 1 SOC;
+ Stage 1 HERS;
+ Stage 2 HERS;
+ Stage 2 HERS+HC;
+ Stage 3 SOC;
+ Stage 3 HERS;
+ Stage 3 HERS+HC;
+ Stage 4 HERS;
+ Stage 4 HERS+HC"
+NCT06421402,"OTHER;
+ DIAGNOSTIC_TEST;
+ DEVICE","Air quality monitoring at patient's home;
+ Questionnaires: Baseline & every six months;
+ Lung function Testing: Baseline & every six months & during exacerbations;
+ EMR & registry data;
+ Communication channel - Health Circuit Mobile App (Herranz C. JMIR 2023);
+ Physiological data - Beat One Watch;
+ Patient Empowerment;
+ Characteristics of exacerbations",['mobile app'],1,"Air quality monitoring at patient's home;
+ Questionnaires: Baseline & every six months;
+ Lung function Testing: Baseline & every six months & during exacerbations;
+ EMR & registry data;
+ Communication channel - Health Circuit Mobile App (Herranz C. JMIR 2023);
+ Physiological data - Beat One Watch;
+ Patient Empowerment;
+ Characteristics of exacerbations"
+NCT06456372,BEHAVIORAL,Digital Health Intervention Group,no matches,0,Digital Health Intervention Group
+NCT06476275,BIOLOGICAL,"Influenza A/Texas/71/2017 (H3N2);
+ Sham placebo",no matches,0,"Influenza A/Texas/71/2017 (H3N2);
+ Sham placebo"
+NCT06492772,OTHER,experimental group,no matches,0,experimental group
+NCT06512064,DIAGNOSTIC_TEST,AWARE,no matches,0,AWARE
+NCT06519864,DIAGNOSTIC_TEST,"Azure Kinect-based Tandem Stance Test (ATST) and Physical Therapist's Measurements of Tandem Stance Test (PTST);
+ Azure Kinect-based Five Times Sit-to-Stand Test (AFTSS) and Physical Therapist's Measurements of Five Times Sit-to-Stand Test (PFTSS);
+ Azure Kinect-based Timed Up and Go Test (ATUG) and Physical Therapist's Measurements of Timed Up and Go Test (PTUG);
+ Short Physical Performance Battery (SPPB);
+ Berg Balance Scale (BBS);
+ Functional Reach Test (FRT);
+ Four-Square Step Test (FSST);
+ Grip Strength (GS)",['kinect'],1,"Azure Kinect-based Tandem Stance Test (ATST) and Physical Therapist's Measurements of Tandem Stance Test (PTST);
+ Azure Kinect-based Five Times Sit-to-Stand Test (AFTSS) and Physical Therapist's Measurements of Five Times Sit-to-Stand Test (PFTSS);
+ Azure Kinect-based Timed Up and Go Test (ATUG) and Physical Therapist's Measurements of Timed Up and Go Test (PTUG);
+ Short Physical Performance Battery (SPPB);
+ Berg Balance Scale (BBS);
+ Functional Reach Test (FRT);
+ Four-Square Step Test (FSST);
+ Grip Strength (GS)"
+NCT06523270,RADIATION,"Computed Tomography (CT) using Photon Counting CT scanner (Neaotom Alpha, Siemens) and Magnetic Resonance (MRI)",no matches,0,"Computed Tomography (CT) using Photon Counting CT scanner (Neaotom Alpha, Siemens) and Magnetic Resonance (MRI)"
+NCT06530446,OTHER,one group. observational study,no matches,0,one group. observational study
+NCT06532526,OTHER,"Predicta® Bioactive Desensitizer (PBD, PARKELL, EDGEWOOD, NY, USA);
+ Gel with 1.23% sodium fluoride (EAZIGEL, VERICOM CO., LTD. SOUTH KOREA);
+ Placebo gel without any active ingredients.",no matches,0,"Predicta® Bioactive Desensitizer (PBD, PARKELL, EDGEWOOD, NY, USA);
+ Gel with 1.23% sodium fluoride (EAZIGEL, VERICOM CO., LTD. SOUTH KOREA);
+ Placebo gel without any active ingredients."
+NCT06533137,OTHER,"Neutral ginger-flavored drink described as energizing, hypoglycemic, caffeine-based drink;
+ Neutral ginger-flavored drink",no matches,0,"Neutral ginger-flavored drink described as energizing, hypoglycemic, caffeine-based drink;
+ Neutral ginger-flavored drink"
+NCT06538363,BEHAVIORAL,"Education;
+ Generic Education",no matches,0,"Education;
+ Generic Education"
+NCT06541938,"DIETARY_SUPPLEMENT;
+ DEVICE","low FODMAP diet;
+ Lactose Sachet;
+ Fructose Sachet;
+ Sorbitol Sachet;
+ Inulin Sachet;
+ AIRE-2 Portable breath analyzer",no matches,0,"low FODMAP diet;
+ Lactose Sachet;
+ Fructose Sachet;
+ Sorbitol Sachet;
+ Inulin Sachet;
+ AIRE-2 Portable breath analyzer"
+NCT06543953,DEVICE,HearCare MED-EL App,no matches,0,HearCare MED-EL App
+NCT06545890,DRUG,"Ketamine;
+ Dexmedetomidine",no matches,0,"Ketamine;
+ Dexmedetomidine"
+NCT06552962,"DEVICE;
+ BEHAVIORAL","Whole body vibration;
+ lumbar stabilization exercises",no matches,0,"Whole body vibration;
+ lumbar stabilization exercises"
+NCT06558539,"DEVICE;
+ COMBINATION_PRODUCT;
+ DRUG","Transcutaneous Tibial Nerve Stimulation(TTNS);
+ Combination Therapy;
+ Standard Medication Therapy",no matches,0,"Transcutaneous Tibial Nerve Stimulation(TTNS);
+ Combination Therapy;
+ Standard Medication Therapy"
+NCT06565780,DEVICE,Device under test evaluation against references,no matches,0,Device under test evaluation against references
+NCT06566833,DRUG,"self assmbling peptide p11-4 combined with 0.05% fluoride;
+ Casein phosphopeptide amorphous calcium phosphate;
+ 5% sodium fluoride varnish",no matches,0,"self assmbling peptide p11-4 combined with 0.05% fluoride;
+ Casein phosphopeptide amorphous calcium phosphate;
+ 5% sodium fluoride varnish"
+NCT06568016,"OTHER;
+ BEHAVIORAL","Best Practice;
+ Communication Intervention;
+ Coordination;
+ Educational Intervention;
+ Electronic Health Record Review;
+ Informational Intervention;
+ Interview;
+ Patient Navigation;
+ Referral;
+ Text Message-Based Navigation Intervention",no matches,0,"Best Practice;
+ Communication Intervention;
+ Coordination;
+ Educational Intervention;
+ Electronic Health Record Review;
+ Informational Intervention;
+ Interview;
+ Patient Navigation;
+ Referral;
+ Text Message-Based Navigation Intervention"
+NCT06570759,PROCEDURE,"Early intervention for OMI;
+ Standard early intervention for STEMI;
+ Standard delayed intervention for NSTEMI",no matches,0,"Early intervention for OMI;
+ Standard early intervention for STEMI;
+ Standard delayed intervention for NSTEMI"
+NCT06573801,DEVICE,"Aktiia Bracelet;
+ Healthstats BPro Evo;
+ Spacelabs OnTrak Ambulatory Blood Pressure monitor",['aktiia'],1,"Aktiia Bracelet;
+ Healthstats BPro Evo;
+ Spacelabs OnTrak Ambulatory Blood Pressure monitor"
+NCT06583421,BEHAVIORAL,4-week MVPA intervention,no matches,0,4-week MVPA intervention
+NCT06595459,DRUG,"Nicotine Pouches;
+ Mini Nicotine lozenges",no matches,0,"Nicotine Pouches;
+ Mini Nicotine lozenges"
+NCT06595615,DEVICE,cardiovascular implantable electronic devices,no matches,0,cardiovascular implantable electronic devices
+NCT06596304,OTHER,"Low intensity-resistance training with lower limb blood flow restriction;
+ High Intensity Resistance Training",no matches,0,"Low intensity-resistance training with lower limb blood flow restriction;
+ High Intensity Resistance Training"
+NCT06601218,DRUG,"Oral cannabis low THC;
+ Placebo Comparator;
+ Oral cannabis high THC;
+ Oral cannabis THC/CBD",no matches,0,"Oral cannabis low THC;
+ Placebo Comparator;
+ Oral cannabis high THC;
+ Oral cannabis THC/CBD"
+NCT06616857,"BEHAVIORAL;
+ OTHER","NUDGE;
+ Education",no matches,0,"NUDGE;
+ Education"
+NCT06623669,BEHAVIORAL,"MORPH;
+ Measurement Only",no matches,0,"MORPH;
+ Measurement Only"
+NCT06632158,BEHAVIORAL,"MindBoba;
+ Mindshift CBT",no matches,0,"MindBoba;
+ Mindshift CBT"
+NCT06644222,BEHAVIORAL,"AIRROSTI exercises;
+ Thera band exercises",no matches,0,"AIRROSTI exercises;
+ Thera band exercises"
+NCT06648538,DEVICE,Phonix Care,no matches,0,Phonix Care
+NCT06659627,"BEHAVIORAL;
+ OTHER","Aerobic exercise therapy;
+ Cognitive behavioural therapy;
+ Usual care",no matches,0,"Aerobic exercise therapy;
+ Cognitive behavioural therapy;
+ Usual care"
+NCT06675799,BEHAVIORAL,"Sleep Extension;
+ Healthy Living Psychoeducation",no matches,0,"Sleep Extension;
+ Healthy Living Psychoeducation"
+NCT06682039,OTHER,"Internet-Based Intervention;
+ Interview;
+ Questionnaire Administration;
+ Text Message-Based Navigation Intervention",no matches,0,"Internet-Based Intervention;
+ Interview;
+ Questionnaire Administration;
+ Text Message-Based Navigation Intervention"
+NCT06687148,OTHER,"Manual manipulation;
+ Sham manipulation",no matches,0,"Manual manipulation;
+ Sham manipulation"
+NCT06714097,"DEVICE;
+ OTHER","AI;
+ healthy dialogue",no matches,0,"AI;
+ healthy dialogue"
+NCT06721182,DEVICE,REBOA,no matches,0,REBOA
+NCT06729515,DEVICE,"PCA;
+ CEA;
+ RISS",no matches,0,"PCA;
+ CEA;
+ RISS"
+NCT06742983,OTHER,"Isobutyl cyanoacrylate;
+ Chlorhexidine (0.2%);
+ Normal Saline (0.9% NaCl)",no matches,0,"Isobutyl cyanoacrylate;
+ Chlorhexidine (0.2%);
+ Normal Saline (0.9% NaCl)"
+NCT06748157,DEVICE,"CardiaCare RR2;
+ Sham Device",no matches,0,"CardiaCare RR2;
+ Sham Device"
+NCT06750978,BEHAVIORAL,"Self-reflection;
+ Self-reflection + Alternative activity engagement;
+ Self-reflection + Contingency management",no matches,0,"Self-reflection;
+ Self-reflection + Alternative activity engagement;
+ Self-reflection + Contingency management"
+NCT06754176,BEHAVIORAL,Alcohol Consumption Randomized Instructions,no matches,0,Alcohol Consumption Randomized Instructions
+NCT06757413,OTHER,"Enhanced Virtual reality;
+ Active Comparator: Treatment as usual",no matches,0,"Enhanced Virtual reality;
+ Active Comparator: Treatment as usual"
+NCT06769516,"DEVICE;
+ BEHAVIORAL","Auricular Vagus Nerve Stimulation (aVNS);
+ Aerobic Exercise Therapy;
+ Low FODMAP Diet Intervention",no matches,0,"Auricular Vagus Nerve Stimulation (aVNS);
+ Aerobic Exercise Therapy;
+ Low FODMAP Diet Intervention"
+NCT06773169,OTHER,"IAMABLE web-based app;
+ General health information",no matches,0,"IAMABLE web-based app;
+ General health information"
+NCT06780982,BEHAVIORAL,"Balloon-Blowing exercise program;
+ Standard nursing care",no matches,0,"Balloon-Blowing exercise program;
+ Standard nursing care"
+NCT06784700,OTHER,"Massage;
+ No intervention",no matches,0,"Massage;
+ No intervention"
+NCT06788886,"PROCEDURE;
+ OTHER","Biospecimen Collection;
+ Exercise Intervention;
+ Magnetic Resonance Imaging;
+ Questionnaire Administration;
+ Respiratory Therapy",no matches,0,"Biospecimen Collection;
+ Exercise Intervention;
+ Magnetic Resonance Imaging;
+ Questionnaire Administration;
+ Respiratory Therapy"
+NCT06806267,"DEVICE;
+ BEHAVIORAL","Virtual reality exposure therapy;
+ transcranial direct current stimulation;
+ Imaginal exposure therapy",no matches,0,"Virtual reality exposure therapy;
+ transcranial direct current stimulation;
+ Imaginal exposure therapy"
+NCT06817876,DEVICE,Care Buddy,no matches,0,Care Buddy
+NCT06818240,DEVICE,"Active transcranial direct current stimulation;
+ Sham transcranial direct current stimulation",no matches,0,"Active transcranial direct current stimulation;
+ Sham transcranial direct current stimulation"
+NCT06835686,"BEHAVIORAL;
+ OTHER","Health Literacy and Culturally Tailored Materials;
+ Community-Engaged Health Coaching and Navigation;
+ Self-Monitoring and Remote Patient Monitoring of weight and physical activity;
+ Community Asset Mapping (CAM);
+ Primary Care Provider Training;
+ Obesity Toolkit for Primary Care Providers",no matches,0,"Health Literacy and Culturally Tailored Materials;
+ Community-Engaged Health Coaching and Navigation;
+ Self-Monitoring and Remote Patient Monitoring of weight and physical activity;
+ Community Asset Mapping (CAM);
+ Primary Care Provider Training;
+ Obesity Toolkit for Primary Care Providers"
+NCT06850129,BEHAVIORAL,DIGITAL INTERVENTION,no matches,0,DIGITAL INTERVENTION
+NCT06868680,"BEHAVIORAL;
+ OTHER","Balance Program;
+ Educational Reading Content",no matches,0,"Balance Program;
+ Educational Reading Content"
+NCT06870383,DRUG,"Erector spinae plane block;
+ Combined Pecto-intercostal and recto-intercostal fascial plane block",no matches,0,"Erector spinae plane block;
+ Combined Pecto-intercostal and recto-intercostal fascial plane block"
+NCT06874413,"BEHAVIORAL;
+ OTHER","Prehabilitation;
+ Standard of Care (SOC)",no matches,0,"Prehabilitation;
+ Standard of Care (SOC)"
+NCT06876233,BEHAVIORAL,"Wellth App;
+ Action Planning;
+ Wellth + Cue",no matches,0,"Wellth App;
+ Action Planning;
+ Wellth + Cue"
+NCT06878859,BEHAVIORAL,Amplification of Positivity - Cannabis Use (AMP-C),no matches,0,Amplification of Positivity - Cannabis Use (AMP-C)
+NCT06886503,OTHER,"Inspiratory Warm-Up - 60% MIP;
+ Inspiratory Warm-up - 40% MIP;
+ Sham",no matches,0,"Inspiratory Warm-Up - 60% MIP;
+ Inspiratory Warm-up - 40% MIP;
+ Sham"
+NCT06894264,BEHAVIORAL,Emotion regulation,no matches,0,Emotion regulation
+NCT06906146,DEVICE,"CRET therapy;
+ Sham CRET Therapy",no matches,0,"CRET therapy;
+ Sham CRET Therapy"
+NCT06919471,OTHER,"Fitbit;
+ MySnackTracker App",['fitbit'],1,"Fitbit;
+ MySnackTracker App"
+NCT06920511,DEVICE,Cognitve rehabilitation with virtual reality and robotic arm,no matches,0,Cognitve rehabilitation with virtual reality and robotic arm
