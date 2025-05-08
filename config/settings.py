@@ -61,12 +61,11 @@ cat_dict = {
 
 dflg_filename = '_DHT_Flags'
 dflg_colname = 'DHT'
-iflg_filename = '_DINT_Flags'
-iflg_colname = '_idx'
-dflg_columns = columns = ['official_title', 'name', 'q_7_desc', 'title', 
-                          'q_8_desc', 'measure', 'q_9_desc', 'q_10_desc']
-iflg_columns = ['name']
-group = 'NCT_id'
+dflg_columns = columns = ['official_title', 'name', 'q_3_desc', 'q_7_desc', 
+                          'title', 'q_8_desc', 'measure', 'q_9_desc', 
+                          'q_10_desc']
+
+group = 'nct_id'
 
 ICD10_descriptor = [
     ('A00', 'B99', 'Infectious diseases'),

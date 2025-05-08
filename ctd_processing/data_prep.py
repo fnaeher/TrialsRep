@@ -83,11 +83,13 @@ def merge(d_CTD):
     d_CTD['CTD_1']['completion_year'] = pd.to_datetime(d_CTD['CTD_1']
         ['completion_date'], errors ='coerce').dt.strftime('%Y')
 
-
+    
     d_CTD['CTD_1_agg'] = d_CTD['CTD_1'].groupby('nct_id').agg(
-        Value1_sum = ('enrollment', 'sum'),    
-        Value1_list = ('enrollment', list),        
-        Value2_list = ('name', list))
+         Value1_sum = ('enrollment', 'sum'),    
+         Value1_list = ('enrollment', lambda x: list(pd.unique(x))),  
+         Value2_list = ('name', list)).reset_index()
+    d_CTD['CTD_1_agg'] = d_CTD['CTD_1_agg'].explode('Value1_list', 
+        ignore_index = True)
 
 
     d_CTD['CTD_1'] = d_CTD['CTD_1'].drop(columns = ['enrollment', 'name'], 
@@ -97,7 +99,7 @@ def merge(d_CTD):
         how = 'left')
 
 
-    d_CTD['CTD_1'].columns = ['NCT_id', 'Enrollment', 'list_Enrollment',
+    d_CTD['CTD_1'].columns = ['NCT_id', 'sum_Enrollment', 'Enrollment',
         'study_Country','study_Type', 'FDAreg_Drug', 'FDAreg_Device', 
         'unapp_Device', 'Status', 'st_Date', 'comp_Date', 'Phase', 'no_Arms', 
         'Sampling', 'e_Gender', 'e_min_Age', 'e_max_Age', 'rep_res','st_Year', 
@@ -111,66 +113,56 @@ def merge(d_CTD):
     
     
     d_CTD['DD']['Year'] = d_CTD['DD']['Year'].astype(str)
-    d_CTD['DD']['study_Country'] = 'United States'
 
-
-    d_CTD['DD'].columns = ['Unnamed: 0', 'st_Year', 'st_Male', 'st_Female', 
+    d_CTD['DD'].columns = ['study_Country', 'st_Year', 'st_Male', 'st_Female', 
         'st_<18 Years', 'st_18:65 Years', 'st_>65 years', 'st_White', 
         'st_Hispanic','st_Black', 'st_am_Indian', 'st_Asian', 'st_Hawaiian', 
-        'st_mixed','study_Country']
+        'st_mixed']
     d_CTD['CTD_1'] = pd.merge(d_CTD['CTD_1'], d_CTD['DD'], on = ['st_Year', 
         'study_Country'], how = 'left')
 
-
-    d_CTD['DD'].columns = ['Unnamed: 0', 'comp_Year', 'comp_Male','comp_Female', 
-        'comp_<18 Years', 'comp_18:65 Years', 'comp_>65 years','comp_White', 
-        'comp_Hispanic', 'comp_Black','comp_am_Indian', 'comp_Asian', 
-        'comp_Hawaiian', 'comp_mixed','study_Country']
+    d_CTD['DD'].columns = ['study_Country', 'comp_Year', 'comp_Male',
+        'comp_Female','comp_<18 Years', 'comp_18:65 Years', 'comp_>65 years',
+        'comp_White', 'comp_Hispanic', 'comp_Black','comp_am_Indian', 
+        'comp_Asian', 'comp_Hawaiian', 'comp_mixed']
     d_CTD['CTD_1'].rename(columns = {'completion_date': 'comp_Year'}, 
         inplace = True)
     d_CTD['CTD_1'] = pd.merge(d_CTD['CTD_1'], d_CTD['DD'], on = ['comp_Year', 
         'study_Country'], how = 'left')
-    d_CTD['CTD_1'] = d_CTD['CTD_1'].drop(['Unnamed: 0_x', 'Unnamed: 0_y'], 
-        axis = 1)
     d_CTD['CTD_1']['study_Country'] = d_CTD['CTD_1']['study_Country'].apply(
         lambda x: [x] if isinstance(x, str) else x
         )
 
     d_CTD['CTD_1']['study_Country_ct'] = d_CTD['CTD_1']['study_Country']\
         .apply(len)     
+
         
     d_CTD['_dta'] = d_CTD['CTD_6'].rename(columns = {'nct_id': 'NCT_id'})  
-    #sample = np.random.choice(d_CTD['_dta']['NCT_id'], size = 15000, replace = False)
-    #d_CTD['_dta'] = d_CTD['_dta'][d_CTD['_dta']['NCT_id'].isin(sample)]
-    flags = d_CTD['u_flags'].iloc[:,0].tolist()
+    sample = np.random.choice(d_CTD['_dta']['NCT_id'], size = 1500, #
+        replace = False) #
+    d_CTD['_dta'] = d_CTD['_dta'][d_CTD['_dta']['NCT_id'].isin(sample)] #
+    flags = d_CTD['u_flags'].iloc[:, 0].tolist()
+    
     d_CTD['_DHT_flags'] = flg.DHT_flag(d_CTD['_dta'], flags, dflg_colname, 
-                     dflg_columns, path, dflg_filename, group)
-    d_CTD['_DHT_flags'] = d_CTD['_DHT_flags'].iloc[:,[0,19]]
+                     dflg_columns, path, dflg_filename)
+    d_CTD['_DHT_flags']['_idx'] = ((d_CTD['_DHT_flags']['_name'] != 'no matches')
+        .astype(int))
+    
+    d_CTD['_device_con'] = (d_CTD['_DHT_flags']['intervention_type']
+        .str.contains('DEVICE') & d_CTD['_DHT_flags']['DHT'] == 1)
+    
+    d_CTD['_not_device'] = ((d_CTD['_DHT_flags']['_idx'] == 1) & 
+         ((d_CTD['_device_con'] != True) | d_CTD['_device_con'].isna()))
+    
+    d_CTD['_DHT_flags']['DINT'] = ((d_CTD['_not_device'] | d_CTD['_device_con'])
+        .astype(int))
+
+
+    d_CTD['_DHT_flags'] = d_CTD['_DHT_flags'].iloc[:, [0,21,24]]
+    
     d_CTD['CTD_1'] = pd.merge(d_CTD['CTD_1'], d_CTD['_DHT_flags'], 
         on = 'NCT_id', how = 'left')
-    
-    d_CTD['_dta'] = d_CTD['CTD_3'].rename(columns = {'nct_id': 'NCT_id'})
-    d_CTD['_dta'] = pd.merge(d_CTD['_dta'], d_CTD['_DHT_flags'], on = 'NCT_id', 
-        how = 'left')
-    d_CTD['_dta'] = d_CTD['_dta'][d_CTD['_dta']['DHT'] == 1].iloc[:,0:3]
-    
-    d_CTD['_DINT_flags'] = flg.DHT_flag(d_CTD['_dta'], flags, iflg_colname, 
-                     iflg_columns, path, iflg_filename, group)
-
-    d_CTD['_DINT_flags']['DINT'] = np.where(
-        ((d_CTD['_DINT_flags']['_idx'] == 1) & 
-        (~d_CTD['_DINT_flags']['intervention_type'].str.contains('DEVICE'))) | 
-         (d_CTD['_DINT_flags']['intervention_type'].str.contains('DEVICE')),
-        1, 0   
-    )
-    
-    d_CTD['_DINT_flags'] = (d_CTD['_DINT_flags']
-                            [d_CTD['_DINT_flags']['DINT'] == 1]
-                            .iloc[:,[0,-1]])
-    
-    d_CTD['CTD_1'] = pd.merge(d_CTD['CTD_1'], d_CTD['_DINT_flags'], 
-        on = 'NCT_id', how = 'left')
-    d_CTD['CTD_1']['DINT'] = d_CTD['CTD_1']['DINT'].fillna(0)
+ 
 
     d_CTD['CTD_3'] = d_CTD['CTD_3'].rename(columns = {'nct_id': 'NCT_id'})
     d_CTD['CTD_3'] = d_CTD['CTD_3'].groupby('NCT_id').agg(   

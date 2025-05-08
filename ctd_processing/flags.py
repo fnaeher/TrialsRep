@@ -77,7 +77,7 @@ class Flagger():
         return data
     
     
-    def DHT_flag(self, data, flags, colname, columns, path, filename, group):
+    def DHT_flag(self, data, flags, colname, columns, path, filename):
         self.logging.info("Checking if flags already exist...")
 
         _Flags = self.pd.DataFrame()
@@ -90,10 +90,6 @@ class Flagger():
         
         else:
             self.logging.info("Flags do not exist - preparing data...")
-
-            data = (data.groupby(group)
-                    .agg(lambda series: 
-                         ';\n '.join(series.dropna().unique())).reset_index())
             
             _Flags = self.DHT_search(data, flags, colname, columns)
             _Flags.to_csv(self.os.path.join(path,f"{filename}.csv"), 

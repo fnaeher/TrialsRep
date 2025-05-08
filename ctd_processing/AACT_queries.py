@@ -8,7 +8,7 @@ Created on Fri Nov 22 17:35:26 2024
 import psycopg2
 import pandas as pd
 import os
-from config.settings import param, path, filename
+from config.settings import param, path, filename, group
 
 
 queries = {
@@ -35,7 +35,7 @@ queries = {
                   bc.ctgov_group_code = bm.ctgov_group_code;
               """,
              
-    "q_3":"""SELECT nct_id, intervention_type, name
+    "q_3":"""SELECT nct_id, intervention_type, name, description
               FROM interventions
               """,
            
@@ -55,7 +55,7 @@ queries = {
               FROM brief_summaries
               """,
            
-    "q_8":"""SELECT nct_id, title,  description, group_type
+    "q_8":"""SELECT nct_id, title,  description,
               FROM design_groups
               """,
            
@@ -93,6 +93,10 @@ for i in range(1,11):
     if i in [3] + list(range(7,11)):
         print(i)
         CTD = q_aact(queries[f"q_{i}"], param)
+        
+        CTD = (CTD.groupby(group)
+                .agg(lambda series: 
+                     ';\n '.join(series.dropna().unique())).reset_index())
         
         if "description" in CTD.columns:
             CTD = CTD.rename(columns = {'description': f"q_{i}_desc"})
